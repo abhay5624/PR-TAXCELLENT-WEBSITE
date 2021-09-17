@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
-
+import styled from "styled-components";
+import Home from "./Pages/Home";
+import Nav from "./Components/Nav";
+import Footer from "./Components/Footer";
+import Aboutus from "./Pages/Aboutus";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AppStyled>
+      <Router>
+        <Nav />
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/aboutus" exact component={Aboutus} />
+        </Switch>
+        <Footer />
+      </Router>
+    </AppStyled>
   );
 }
-
+const AppStyled = styled.div`
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-family: "Bona Nova", serif;
+`;
 export default App;
