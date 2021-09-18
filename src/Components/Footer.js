@@ -108,6 +108,14 @@ const Footer = () => {
       </div>
       <Copyright>
         2021 &copy; P R TAXCELLENT & ASSOCIATES All right reserve.
+        <br />
+        Created by -{" "}
+        <a
+          href="https://wa.me/7827808430"
+          style={{ color: "#FFA800", textDecoration: "none" }}
+        >
+          Abhay Sharma
+        </a>
       </Copyright>
     </Footerstyle>
   );
