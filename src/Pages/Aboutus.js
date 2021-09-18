@@ -32,20 +32,19 @@ const Aboutus = () => {
           <div>
             <h2>Who we are ?</h2>
             <p>
-              We are a team of proficient and dedicated chartered accountants
-              based in New Delhi as well as other major cities in India. We
-              typically handle all the branches of accounting and auditing
-              including accounts outsourcing, Business taxation, corporate
-              compliance, company formation in India, starting a business in
-              India, registration of foreign companies, taxation of expatriates,
-              etc.
+              P R Taxcellent & Associates firm was established in INDIA in 2010
+              and has currently become on of the leading firm in North India.
+              The firm operates from its offices situated in Delhi, Uttar
+              Pradesh, Haryana and offers its clients a full range of services
+              including financial and business advisory, tax and regulatory, and
+              risk advisory services.
             </p>
             <p>
-              Our mission has been to render professional services of the
-              highest standard to clients, upholding the code of conduct and
-              ethics of the profession. Keeping these grounded principles in
-              consideration, we continue to grow and expand in our endeavour to
-              exceed expectations.
+              P R Taxcellent & Associates has a client base of more than 200.
+              The firm approach to service delivery helps to provide value added
+              services to clients. Our differentiation is derived from a rapid
+              performance based, industry and technology enabled business
+              advisory services delivered by talented professionals.
             </p>
           </div>
 
@@ -66,57 +65,86 @@ const Aboutus = () => {
           ></div>
 
           <div>
-            <h2>Why Choose Us ? </h2>
+            <h2>WHY WORK WITH US ? </h2>
             <p>
-              This is a team of highly-qualified and experienced professionals
-              who add value to your business with their skill and efficiency. We
-              are here to offer you:
+              We challenge our people to learn more, look deeper and offer them
+              knowledge and training to help them learn something new every day.
+              Our firm is a growing firm which offers wide variety of work and
+              complete exposure to our team. We encourage them to have high
+              aspirations and create a customized career graph. Creating a
+              supportive and diverse workplace and a merit based equal
+              opportunity environment is our target. We offer a variety of
+              services, so we are looking for a variety of people – individuals
+              who can bring new perspectives to existing scenarios, bright and
+              creative thinkers.
             </p>
             <ul>
               <li>
-                <FontAwesomeIcon icon={faCheckSquare} /> A fresh and practical
-                approach to our clients’ tax and account maintenance planning
+                <FontAwesomeIcon icon={faCheckSquare} /> Professional Growth
               </li>
               <li>
-                <FontAwesomeIcon icon={faCheckSquare} />A customized service
-                based on individual clients
+                <FontAwesomeIcon icon={faCheckSquare} /> Personal Development
               </li>
               <li>
-                <FontAwesomeIcon icon={faCheckSquare} /> Innovative solutions to
-                make things simpler
+                <FontAwesomeIcon icon={faCheckSquare} /> Work Life Balance
               </li>
               <li>
-                <FontAwesomeIcon icon={faCheckSquare} /> Value Focused, High
-                Integrity Audit
+                <FontAwesomeIcon icon={faCheckSquare} /> Gender Sensitive
               </li>
               <li>
                 <FontAwesomeIcon icon={faCheckSquare} />
-                Our more than 10-year history of providing quality service to
-                our clients
+                Personalized mentoring
+              </li>
+              <li>
+                <FontAwesomeIcon icon={faCheckSquare} />
+                Safe environment
               </li>
             </ul>
           </div>
         </div>
       </AboutContent>
+      <h1
+        style={{
+          textAlign: "center",
+          color: "white",
+          backgroundColor: "#011231",
+          margin: "0%",
+          padding: "30px",
+        }}
+      >
+        VALUES
+      </h1>
       <div className="mission">
         <div>
           <h2>Our Mission</h2>
           <hr />
           <p>
-            “Let ideas transform into innovation”. Our mission is to provide
-            comprehensive professional services which clients refer to their
-            associates, employees boast upon, competitors acknowledge and set as
-            standards for themselves.
+            To provide reliable professional services with integrity, excellence
+            and commitment to meet our clients’ needs.
           </p>
         </div>
         <div>
           <h2>Our Vission</h2>
           <hr />
           <p>
-            “Seeing invisible, achieving impossible”. Our vision is to raise
-            benchmarks with every assignment by imparting knowledge with a goal
-            to provide timely deliverable which makes us victorious in achieving
-            client’s satisfaction adding to PR’s glory as a professional firm.
+            To establish a one roof platform for clients for all their
+            professional needs and to improve constantly
+          </p>
+        </div>
+        <div>
+          <h2>Our Beliefs</h2>
+          <hr />
+          <p>
+            We belief in moral values and accept that there are no shortcuts for
+            quality of professional services.
+          </p>
+        </div>
+        <div>
+          <h2>Our Ethics</h2>
+          <hr />
+          <p>
+            We abide by the professional ethics and would like to restrain
+            ourselves from any conduct that may discredit our profession.
           </p>
         </div>
       </div>

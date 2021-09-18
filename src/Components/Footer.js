@@ -5,9 +5,11 @@ import {
   faTwitterSquare,
   faLinkedin,
   faYoutubeSquare,
+  faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 import { faThumbtack } from "@fortawesome/free-solid-svg-icons";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <Footerstyle>
@@ -22,44 +24,86 @@ const Footer = () => {
             <li>Copyright policy</li>
           </ul>
           <ul>
-            <h3>Contact us</h3>
-            <li>Business partners</li>
-            <li>Prtaxcellent@gmail.com</li>
-            <li>Advertise with us</li>
+            <Link to="/contact">
+              <h3>Contact us</h3>
+            </Link>
+            <Link to="/aboutus">
+              <li>Business partners</li>
+            </Link>
+            <li>prtaxcellent@outlook.com</li>
+            <Link to="/contact">
+              <li>Advertise with us</li>
+            </Link>
           </ul>
           <ul>
             <h3>Support--</h3>
             <li>Appointment</li>
             <li>Help</li>
-            <li>How we work</li>
+            <li className="careers">
+              Careers <div>There is no opening in current time</div>
+            </li>
           </ul>
         </Linkslist>
         <div className="icons">
           <FontAwesomeIcon icon={faFacebookSquare} size="5x" className="icon" />
           <FontAwesomeIcon icon={faTwitterSquare} size="5x" className="icon" />
           <FontAwesomeIcon icon={faLinkedin} size="5x" className="icon" />
+          <FontAwesomeIcon icon={faInstagram} size="5x" className="icon" />
           <FontAwesomeIcon icon={faYoutubeSquare} size="5x" className="icon" />
         </div>
       </Linksul>
       <div>
         <Location>
-          <a href="https://maps.app.goo.gl/Ct8VAmvhJCNeNU7k6">
+          <a href="https://www.google.com/maps/place/M+Block,+Block-M+Connaught+Place,+Connaught+Cir,+Block+M,+Connaught+Place,+New+Delhi,+Delhi+110001/@28.6332818,77.2200493,17z/data=!3m1!4b1!4m5!3m4!1s0x390cfd3726d5a1f7:0x27f0747e8ad0f794!8m2!3d28.6332818!4d77.222238">
             <FontAwesomeIcon icon={faThumbtack} size="3x" className="icon" />
           </a>
 
-          <h3>A-264, Indrapuri, Loni Ghaziabad (U.P) - 201102</h3>
+          <h3>M Block, Connaught Place, New Delhi-110001</h3>
         </Location>
         <h4>Legal Disclaimer</h4>
         <p>
-          The information contained on this website merely provides details of
-          our firm to persons who have shown interest in knowing more about us
-          and is not intended to solicit work or advertise our capabilities in
-          any manner.The information provided on this website is general in
-          nature and should not be used as a basis of decision-making without
-          further professional advice. The third party site links are only
-          provided for ready reference of the users and CA P R TAXCELLENT &
-          ASSOCIATES neither controls thir content nor undertakes any
-          responsibility regarding them.
+          Your access to this website constitutes your agreement to be bound by
+          all terms and conditions listed herein below. If you do not agree to
+          this, you may not access or otherwise use the website. The material
+          displayed on this website may be downloaded for non-commercial,
+          personal use only. Distribution, modification, transmission, use or
+          reuse of the content and various facilities available on this website
+          without written permission is not permissible. The firm reserves the
+          right, for any reason, in its sole discretion, to terminate, change or
+          suspend any aspect of this website, including, but not limited to,
+          content or features. All reasonable efforts shall be made to ensure
+          that the information contained on this website is updated, accurate
+          and complete. However, no representations or warranties are made
+          (express or implied) as to the reliability, accuracy or completeness
+          of such information. The site provides links to websites or resources
+          operated by others over which we do not have any control. We do not
+          undertake any responsibility for the availability of such external
+          resources. We shall not be liable for any content, advertising,
+          products, services or other materials on or available from such sites
+          or resources.
+        </p>
+        <p>
+          The inclusion of hyperlinks to such sites does not imply any
+          endorsement of the material on such websites or any association with
+          their operators. We. shall not be responsible or liable, directly or
+          indirectly, for any damage or loss caused or alleged to be caused by
+          or in connection with use of or reliance on any such content or
+          service available on or through any such site or resource. The site,
+          including all content, functions, and information made available on or
+          accessed through the site, is provided on an “as is available” basis
+          without representations or warranties of any kind whatsoever, express
+          or implied, including without limitation, non-infringement,
+          merchantability or fitness for a particular purpose. The firm does not
+          warrant that the site or the functions, features or content contained
+          therein will be timely, secure, uninterrupted or error free, or that
+          defects will be corrected. No advice or information, whether oral or
+          written, obtained by you from us or through this website shall create
+          any warranty not expressly made herein. In no event shall the firm be
+          liable for any special, incidental or consequential damages that are
+          directly or indirectly related to the use of, or the inability to use
+          this website or the content, materials and functions related thereto,
+          including without limitation, loss of revenue or anticipated profits
+          or lost business or lost sales.
         </p>
       </div>
       <Copyright>
@@ -124,11 +168,34 @@ const Linkslist = styled.div`
   border-right: 1px solid white;
   margin: 40px;
   padding-right: 40px;
+  a {
+    text-decoration: none;
+    color: white;
+  }
   ul {
     li {
       line-height: 25px;
       &:hover {
         color: #ffa800;
+      }
+    }
+    .careers {
+      position: relative;
+      &:hover {
+        div {
+          display: block;
+        }
+      }
+      div {
+        position: absolute;
+        left: -143%;
+        text-align: center;
+        width: max-content;
+        background-color: black;
+        top: -86%;
+        padding: 25px;
+        color: #ffa800;
+        display: none;
       }
     }
   }

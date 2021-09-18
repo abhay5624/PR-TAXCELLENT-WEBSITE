@@ -5,6 +5,7 @@ import {
   faTwitterSquare,
   faLinkedin,
   faYoutubeSquare,
+  faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 import styled from "styled-components";
 import imagessocial from "../img/Social.jpg";
@@ -17,15 +18,34 @@ const Social_media = () => {
       }}
     >
       <div className="cover">
-        <h1>P. R. Social Media</h1>
+        <h1>We Are At Social Media</h1>
         <h3>There is planty you can find....</h3>
-        <h3>
-          Just follow our page on Twitter and other social media plateform
-        </h3>
+        <h3>Just follow our page on Twitter and other social media platform</h3>
         <div>
-          <FontAwesomeIcon icon={faFacebookSquare} size="7x" />
-          <FontAwesomeIcon icon={faTwitterSquare} size="7x" />
-          <FontAwesomeIcon icon={faLinkedin} size="7x" />
+          <a
+            href="https://twitter.com/RTaxcellent"
+            style={{ textDecoration: "none", color: "inherit" }}
+          >
+            <FontAwesomeIcon icon={faFacebookSquare} size="7x" />
+          </a>
+          <a
+            href="https://twitter.com/RTaxcellent"
+            style={{ textDecoration: "none", color: "inherit" }}
+          >
+            <FontAwesomeIcon icon={faTwitterSquare} size="7x" />
+          </a>
+          <a
+            href="https://twitter.com/RTaxcellent"
+            style={{ textDecoration: "none", color: "inherit" }}
+          >
+            <FontAwesomeIcon icon={faLinkedin} size="7x" />
+          </a>
+          <a
+            href="https://www.instagram.com/prtaxcellent/"
+            style={{ textDecoration: "none", color: "inherit" }}
+          >
+            <FontAwesomeIcon icon={faInstagram} size="7x" />
+          </a>
           <FontAwesomeIcon icon={faYoutubeSquare} size="7x" />
         </div>
       </div>

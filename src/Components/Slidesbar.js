@@ -6,8 +6,9 @@ import image2 from "../img/teckn.jpeg";
 import image3 from "../img/bbbbb.jpeg";
 import styled from "styled-components";
 import image4 from "../img/startupad.jpeg";
+import image5 from "../img/Main-4.jpeg";
 const Slidesbar = () => {
-  const slideImages = [image2, image1, image3, image4];
+  const slideImages = [image2, image1, image3, image4, image5];
   const slideProperties = {
     duration: 1500,
   };
@@ -24,9 +25,8 @@ const Slidesbar = () => {
           <div>
             <h1>Global Business Services</h1>
             <p>
-              We provide outsourcing services in India including US Taxation, UK
-              Taxation, Bookkeeping, Accounting, Financial Planning & Analysis
-              and Payroll.
+              We provide outsourcing services in India including Bookkeeping,
+              Accounting, Financial Planning & Analysis and Payroll.
             </p>
             <a>SEND ENQUIRY</a>
           </div>
@@ -36,11 +36,12 @@ const Slidesbar = () => {
         <Slidestyle
           style={{
             backgroundImage: `url(${slideImages[1]})`,
-            backgroundSize: "cover",
+            backgroundSize: "auto",
+            backgroundPosition: "50%",
           }}
         >
           <div>
-            <h1>Startup Services</h1>
+            <h1>Risk Advisory Services</h1>
 
             <a>READ MORE</a>
           </div>
@@ -73,13 +74,27 @@ const Slidesbar = () => {
           }}
         >
           <div>
-            <h1>Business Setup Advisory</h1>
+            <h1>Setup Advisory</h1>
             <p>
               {" "}
               We provide a complete business setup advisory in India including
               entry strategy, location study, regulatory approvals, startup
               support and secretarial support.
             </p>
+
+            <a>SEND ENQUIRY</a>
+          </div>
+        </Slidestyle>
+      </div>
+      <div className="each-slide">
+        <Slidestyle
+          style={{
+            backgroundImage: `url(${slideImages[4]})`,
+            backgroundSize: "cover",
+          }}
+        >
+          <div>
+            <h1>Taxation Advisory</h1>
 
             <a>SEND ENQUIRY</a>
           </div>

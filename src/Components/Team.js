@@ -6,19 +6,19 @@ import styled from "styled-components";
 const Team = ({ description, width }) => {
   return (
     <Teammember>
-      <h2>Our Team</h2>
+      <h2>Our Team's</h2>
       <Cards>
         <Card
-          name="Rahul"
+          name="RAVI MALIK"
           profile={image1}
-          post="Partners"
+          post="Partner"
           description={description[0]}
           width={width}
         />
         <Card
-          name="Prashant"
+          name="PRASHANT AGGARWAL"
           profile={image2}
-          post="Partners"
+          post="Partner"
           description={description[1]}
           width={width}
         />

@@ -24,6 +24,7 @@ const Experience = () => {
             separator=" "
             decimal=","
           />
+          +
         </h1>
         <h3>YEARS OF EXPERIENCE</h3>
       </div>
@@ -41,6 +42,7 @@ const Experience = () => {
             separator=" "
             decimal=","
           />
+          +
         </h1>
         <h3>TEAM</h3>
       </div>
@@ -58,6 +60,7 @@ const Experience = () => {
             separator=" "
             decimal=","
           />
+          +
         </h1>
         <h3>SEMINARS</h3>
       </div>

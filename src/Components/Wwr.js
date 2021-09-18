@@ -18,33 +18,56 @@ const Wwr = () => {
   return (
     <Wwrstyle id="trending">
       <div className="who">
-        <h1>WHO WE ARE ?</h1>
+        <h1>WELCOME TO P R TAXCELLENT & ASSOCIATES ?</h1>
         <p>
-          We are a team of proficient and dedicated chartered accountants based
-          in New Delhi as well as other major cities in India. We typically
-          handle all the branches of accounting and auditing including accounts
-          outsourcing, Business taxation, corporate compliance, company
-          formation in India, starting a business in India, registration of
-          foreign companies, taxation of expatriates, etc.
+          P R Taxcellent & Associates firm was established in INDIA in 2010 and
+          has currently become on of the leading firm in North India. The firm
+          operates from its offices situated in Delhi, Uttar Pradesh, Haryana
+          and offers its clients a full range of services including financial
+          and business advisory, tax and regulatory, and risk advisory services.
+        </p>
+        <p>
+          P R Taxcellent & Associates has a client base of more than 200. The
+          firm approach to service delivery helps to provide value added
+          services to clients. Our differentiation is derived from a rapid
+          performance based, industry and technology enabled business advisory
+          services delivered by talented professionals.
         </p>
         <h2>WHY CHOOSE US ?</h2>
         <p>
-          This is a team of highly-qualified and experienced professionals who
-          add value to your business with their skill and efficiency. We are
-          here to offer you:
+          We challenge our people to learn more, look deeper and offer them
+          knowledge and training to help them learn something new every day. Our
+          firm is a growing firm which offers wide variety of work and complete
+          exposure to our team. We encourage them to have high aspirations and
+          create a customized career graph. Creating a supportive and diverse
+          workplace and a merit based equal opportunity environment is our
+          target.
+        </p>
+        <p>
+          We offer a variety of services, so we are looking for a variety of
+          people – individuals who can bring new perspectives to existing
+          scenarios, bright and creative thinkers.
         </p>
         <ul>
           <li>
-            <FontAwesomeIcon icon={faCheckSquare} /> A fresh and practical
-            approach to our clients’ tax and account maintenance planning
+            <FontAwesomeIcon icon={faCheckSquare} /> Professional Growth
           </li>
           <li>
-            <FontAwesomeIcon icon={faCheckSquare} />A customized service based
-            on individual clients
+            <FontAwesomeIcon icon={faCheckSquare} /> Personal Development
           </li>
           <li>
-            <FontAwesomeIcon icon={faCheckSquare} /> Innovative solutions to
-            make things simpler
+            <FontAwesomeIcon icon={faCheckSquare} /> Work Life Balance
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faCheckSquare} /> Gender Sensitive
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faCheckSquare} />
+            Personalized mentoring
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faCheckSquare} />
+            Safe environment
           </li>
         </ul>
       </div>
@@ -229,7 +252,7 @@ const Wwrstyle = styled.div`
       }
     }
     div {
-      background-color: #0076f4;
+      background-color: #48484c;
       color: white;
 
       text-align: center;

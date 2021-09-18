@@ -8,6 +8,7 @@ import {
   faLinkedin,
   faInstagram,
   faYoutubeSquare,
+  faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
 import {
   faEnvelope,
@@ -20,29 +21,39 @@ const Nav = () => {
     <Positionfixednav>
       <Navstyle>
         <Socalmedia>
-          <a href="#">
+          <a
+            href="https://twitter.com/RTaxcellent"
+            style={{ color: "#7ab6da", borderColor: "#7ab6da" }}
+          >
             <FontAwesomeIcon icon={faTwitter} />
           </a>
-          <a href="#">
+          <a href="#" style={{ color: "#2789c5", borderColor: "#2789c5" }}>
             <FontAwesomeIcon icon={faFacebook} />{" "}
           </a>
-          <a href="#">
+          <a href="#" style={{ color: "#0A66C2", borderColor: "#0A66C2" }}>
             {" "}
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
-          <a href="#">
+          <a
+            href="https://www.instagram.com/prtaxcellent"
+            style={{ color: "#E37472", borderColor: "#E37472" }}
+          >
             <FontAwesomeIcon icon={faInstagram} />
           </a>
-          <a href="#">
+          <a href="#" style={{ color: "#f3423f", borderColor: "#f3423f" }}>
             <FontAwesomeIcon icon={faYoutubeSquare} />
           </a>
         </Socalmedia>
         <Socialdetail>
           <h1>
             <FontAwesomeIcon icon={faEnvelope} />
-            &nbsp; Prtaxcllent@gmail.com
+            &nbsp; prtaxcellent@outlook.com
           </h1>
           <h1>
+            <FontAwesomeIcon
+              icon={faWhatsapp}
+              style={{ paddingRight: "3px", fontSize: "21px" }}
+            />
             <FontAwesomeIcon icon={faPhoneAlt} /> &nbsp;+91-9310070808
           </h1>
           <h1>
@@ -76,34 +87,45 @@ const Nav = () => {
                 </li>
                 <li>
                   {" "}
-                  <Link to="/aboutus">LEADERSHIP</Link>
-                </li>
-                <li>
-                  {" "}
-                  <Link to="/aboutus">OUR JOURNEY</Link>
+                  <Link to="/aboutus">OUR TEAM'S</Link>
                 </li>
               </ul>
             </div>
           </div>
           <div className="dropdown">
-            <a href="#">SERVICES</a>
+            <Link to="services">SERVICES</Link>
             <FontAwesomeIcon icon={faChevronDown} />
             <div className="dropdowncontent">
               <ul>
-                <li>DIRECT TAX</li>
-                <li>INDIRECT TAX</li>
-                <li>ESI / EPF</li>
-                <li>CUSTOM / EXCISE</li>
-                <li>AUDIT & ASSURANCE</li>
-                <li>CAPITAL MARKET OPINION</li>
-                <li>VALUATION</li>
+                <li>
+                  <Link to="services">DIRECT TAX</Link>
+                </li>
+                <li>
+                  <Link to="services">INDIRECT TAX</Link>
+                </li>
+                <li>
+                  <Link to="services">ESI / EPF</Link>
+                </li>
+                <li>
+                  <Link to="services">CUSTOM / EXCISE</Link>
+                </li>
+                <li>
+                  <Link to="services">AUDIT & ASSURANCE</Link>
+                </li>
+                <li>
+                  <Link to="services">CAPITAL MARKET OPINION</Link>
+                </li>
+                <li>
+                  <Link to="services">VALUATION</Link>
+                </li>
               </ul>
             </div>
           </div>
+          <Link to="/resources">RESOURCES</Link>
 
-          <a href="#trending">TRENDING</a>
-          <a href="#">INDUSTRIES</a>
-          <a href="#">CONTACT US</a>
+          <Link to="industries">INDUSTRIES</Link>
+
+          <Link to="/contact">CONTACT US</Link>
         </div>
       </Navstyletwo>
     </Positionfixednav>
@@ -117,6 +139,7 @@ const Positionfixednav = styled.div`
 `;
 const Navstyle = styled.nav`
   background-color: #48484c;
+
   color: white;
   display: flex;
   justify-content: space-between;
@@ -191,8 +214,8 @@ const Navstyletwo = styled.div`
   }
 
   img {
-    width: 224px;
-    height: 82px;
+    width: 400px;
+    height: 122px;
   }
   a {
     margin: 5px;

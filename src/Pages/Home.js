@@ -8,6 +8,8 @@ import Services from "../Components/Services";
 import Experience from "../Components/Experience";
 import Social_media from "../Components/Social_media";
 import Team from "../Components/Team";
+import servImage from "../img/services.jpeg";
+
 const Home = () => {
   return (
     <div>
@@ -15,12 +17,12 @@ const Home = () => {
       <Service1 />
       <Extra>
         <h1>
-          We are present in 80+ countries worldwide via our global alliance and
+          We are present in 80+ cities within india via our alliance and
           network.
         </h1>
       </Extra>
       <Wwr />
-      <Services />
+      <Services servImage={servImage} />
       <Experience />
       <Social_media />
       <Team description={["", ""]} width="40%" />
@@ -33,7 +35,7 @@ const Extra = styled.div`
   margin-top: 5%;
   margin-bottom: 5%;
   color: white;
-  background-color: #0076f4;
+  background-color: #48484c;
   padding: 5px;
   font-family: "Josefin Sans", sans-serif;
   font-size: 11px;

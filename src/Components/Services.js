@@ -1,5 +1,4 @@
 import React from "react";
-import servImage from "../img/services.jpeg";
 import taximage1 from "../img/srvicesimg/Direct.jpeg";
 import taximage2 from "../img/srvicesimg/Indirect.jpeg";
 import Customimg from "../img/srvicesimg/Excise.jpg";
@@ -8,17 +7,27 @@ import styled from "styled-components";
 import CapitalImg from "../img/srvicesimg/Capital.jpg";
 import Valuationimg from "../img/srvicesimg/Valuation.jpg";
 import ESIimg from "../img/srvicesimg/ESI.png";
-const Services = () => {
+import GSTimg from "../img/srvicesimg/GST.jpg";
+
+const Services = ({ servImage }) => {
   return (
     <Servicesection
       style={{ backgroundImage: `url(${servImage})`, backgroundSize: "cover" }}
     >
-      <h2>OUR SERVICES</h2>
+      <Serviceheading>
+        <h2>OUR SERVICES</h2>
+        <p>
+          Our dedicated employees are happy to assist you with know how and
+          experience in your daily business.
+        </p>
+      </Serviceheading>
       <Sersections>
         <div
           style={{
             backgroundImage: `url(${taximage1})`,
             backgroundSize: "cover",
+            backgroundColor: " rgb(0 0 0 / 60%)",
+            backgroundBlendMode: "multiply",
           }}
         >
           <h4>DIRECT TAX</h4>
@@ -62,6 +71,8 @@ const Services = () => {
           style={{
             backgroundImage: `url(${Customimg})`,
             backgroundSize: "cover",
+            backgroundColor: " rgb(0 0 0 / 60%)",
+            backgroundBlendMode: "multiply",
           }}
         >
           <h4>CUSTOM/EXCISE</h4>
@@ -78,6 +89,7 @@ const Services = () => {
           style={{
             backgroundImage: `url(${auditimg})`,
             backgroundSize: "cover",
+            backgroundPosition: "90%",
           }}
         >
           <h4> AUDIT & ASSURANCE</h4>
@@ -106,6 +118,8 @@ const Services = () => {
           style={{
             backgroundImage: `url(${Valuationimg})`,
             backgroundSize: "cover",
+            backgroundColor: " rgb(0 0 0 / 60%)",
+            backgroundBlendMode: "multiply",
           }}
         >
           <h4>VALUATION</h4>
@@ -117,17 +131,47 @@ const Services = () => {
           </p>
         </div>
       </Sersections>
+      <Sersections>
+        <div
+          style={{
+            backgroundImage: `url(${GSTimg})`,
+            backgroundSize: "100%",
+          }}
+        >
+          <h4>G.S.T</h4>
+          <hr />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+            impedit amet repudiandae, libero enim, optio aliquam corporis
+            similique itaque porro minima quo sapiente qui recusandae
+          </p>
+        </div>
+      </Sersections>
     </Servicesection>
   );
 };
+const Serviceheading = styled.div`
+  color: white;
+  background-color: #0000007b;
+  width: max-content;
+  height: min-content;
+  margin: auto;
+  padding: 30px;
+  text-align: center;
+  p {
+    font-size: 25px;
+  }
+  h2 {
+    text-align: center;
+  }
+`;
 const Servicesection = styled.div`
-  height: 180vh;
+  height: min-content;
   display: flex;
   flex-direction: column;
-
+  padding-bottom: 100px;
+  padding-top: 50px;
   h2 {
-    text-align: right;
-    padding-top: 90px;
     padding-right: 100px;
     color: white;
     font-family: "Josefin Sans", sans-serif;
@@ -146,7 +190,7 @@ const Sersections = styled.div`
     background-blend-mode: hard-light;
     margin: 30px;
     border: 2px solid #ffffff;
-    color: white;
+    color: #ffffff;
     overflow: hidden;
     &:hover {
       p {
