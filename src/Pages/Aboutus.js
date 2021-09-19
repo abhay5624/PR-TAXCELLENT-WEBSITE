@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import backimage from "../img/services1.jpg";
-import image2 from "../img/team.jpeg";
+import image2 from "../img/Why.jpeg";
 import imag3 from "../img/ychoos.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckSquare } from "@fortawesome/free-solid-svg-icons";

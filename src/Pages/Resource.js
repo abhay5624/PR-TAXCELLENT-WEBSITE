@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Backimg from "../img/teckn1.jpeg";
+import Backimg from "../img/Resources.jpeg";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowAltCircleRight } from "@fortawesome/free-solid-svg-icons";

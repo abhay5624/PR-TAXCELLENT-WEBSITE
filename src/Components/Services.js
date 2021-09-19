@@ -8,11 +8,12 @@ import CapitalImg from "../img/srvicesimg/Capital.jpg";
 import Valuationimg from "../img/srvicesimg/Valuation.jpg";
 import ESIimg from "../img/srvicesimg/ESI.png";
 import GSTimg from "../img/srvicesimg/GST.jpg";
-
+import VATimg from "../img/srvicesimg/VAT.jpg";
+import PYimg from "../img/srvicesimg/PhysicalVerification.jpeg";
 const Services = ({ servImage }) => {
   return (
     <Servicesection
-      style={{ backgroundImage: `url(${servImage})`, backgroundSize: "cover" }}
+      style={{ backgroundImage: `url(${servImage})`, backgroundSize: "100%" }}
     >
       <Serviceheading>
         <h2>OUR SERVICES</h2>
@@ -21,69 +22,6 @@ const Services = ({ servImage }) => {
           experience in your daily business.
         </p>
       </Serviceheading>
-      <Sersections>
-        <div
-          style={{
-            backgroundImage: `url(${taximage1})`,
-            backgroundSize: "cover",
-            backgroundColor: " rgb(0 0 0 / 60%)",
-            backgroundBlendMode: "multiply",
-          }}
-        >
-          <h4>DIRECT TAX</h4>
-          <hr />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
-            impedit amet repudiandae, libero enim, optio aliquam corporis
-            similique itaque porro minima quo sapiente qui recusandae
-          </p>
-        </div>
-        <div
-          style={{
-            backgroundImage: `url(${taximage2})`,
-            backgroundSize: "cover",
-          }}
-        >
-          <h4>INDIRECT TAX</h4> <hr />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
-            impedit amet repudiandae, libero enim, optio aliquam corporis
-            similique itaque porro minima quo sapiente qui recusandae
-          </p>
-        </div>
-        <div
-          style={{
-            backgroundImage: `url(${ESIimg})`,
-            backgroundSize: "cover",
-          }}
-        >
-          <h4>ESI / EPF</h4>
-          <hr />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
-            impedit amet repudiandae, libero enim, optio aliquam corporis
-            similique itaque porro minima quo sapiente qui recusandae
-          </p>
-        </div>
-      </Sersections>
-      <Sersections>
-        <div
-          style={{
-            backgroundImage: `url(${Customimg})`,
-            backgroundSize: "cover",
-            backgroundColor: " rgb(0 0 0 / 60%)",
-            backgroundBlendMode: "multiply",
-          }}
-        >
-          <h4>CUSTOM/EXCISE</h4>
-          <hr />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
-            impedit amet repudiandae, libero enim, optio aliquam corporis
-            similique itaque porro minima quo sapiente qui recusandae
-          </p>
-        </div>
-      </Sersections>
       <Sersections>
         <div
           style={{
@@ -116,6 +54,106 @@ const Services = ({ servImage }) => {
         </div>
         <div
           style={{
+            backgroundImage: `url(${taximage1})`,
+            backgroundSize: "cover",
+            backgroundColor: " rgb(0 0 0 / 60%)",
+            backgroundBlendMode: "multiply",
+          }}
+        >
+          <h4>INCOME TAX / TDS </h4>
+          <hr />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+            impedit amet repudiandae, libero enim, optio aliquam corporis
+            similique itaque porro minima quo sapiente qui recusandae
+          </p>
+        </div>
+      </Sersections>
+      <Sersections>
+        <div
+          style={{
+            backgroundImage: `url(${ESIimg})`,
+            backgroundSize: "cover",
+          }}
+        >
+          <h4>ESI / EPF</h4>
+          <hr />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+            impedit amet repudiandae, libero enim, optio aliquam corporis
+            similique itaque porro minima quo sapiente qui recusandae
+          </p>
+        </div>
+      </Sersections>
+      <Sersections>
+        <div
+          style={{
+            backgroundImage: `url(${Customimg})`,
+            backgroundSize: "cover",
+            backgroundColor: " rgb(0 0 0 / 60%)",
+            backgroundBlendMode: "multiply",
+          }}
+        >
+          <h4>CUSTOM/EXCISE</h4>
+          <hr />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+            impedit amet repudiandae, libero enim, optio aliquam corporis
+            similique itaque porro minima quo sapiente qui recusandae
+          </p>
+        </div>
+
+        <div
+          style={{
+            backgroundImage: `url(${GSTimg})`,
+            backgroundSize: "100%",
+          }}
+        >
+          <h4>G.S.T</h4>
+          <hr />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+            impedit amet repudiandae, libero enim, optio aliquam corporis
+            similique itaque porro minima quo sapiente qui recusandae
+          </p>
+        </div>
+        <div
+          style={{
+            backgroundImage: `url(${taximage2})`,
+            backgroundSize: "cover",
+          }}
+        >
+          <h4>PAYROLL TAX</h4> <hr />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+            impedit amet repudiandae, libero enim, optio aliquam corporis
+            similique itaque porro minima quo sapiente qui recusandae
+          </p>
+        </div>
+      </Sersections>
+
+      <Sersections>
+        {" "}
+        <div
+          style={{
+            backgroundImage: `url(${PYimg})`,
+            backgroundSize: "cover",
+            backgroundColor: " rgb(0 0 0 / 60%)",
+            backgroundBlendMode: "multiply",
+          }}
+        >
+          <h4>PHYSICAL VERIFICATION</h4>
+          <hr />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+            impedit amet repudiandae, libero enim, optio aliquam corporis
+            similique itaque porro minima quo sapiente qui recusandae
+          </p>
+        </div>
+      </Sersections>
+      <Sersections>
+        <div
+          style={{
             backgroundImage: `url(${Valuationimg})`,
             backgroundSize: "cover",
             backgroundColor: " rgb(0 0 0 / 60%)",
@@ -130,15 +168,15 @@ const Services = ({ servImage }) => {
             similique itaque porro minima quo sapiente qui recusandae
           </p>
         </div>
-      </Sersections>
-      <Sersections>
         <div
           style={{
-            backgroundImage: `url(${GSTimg})`,
-            backgroundSize: "100%",
+            backgroundImage: `url(${VATimg})`,
+            backgroundSize: "cover",
+            backgroundColor: " rgb(0 0 0 / 60%)",
+            backgroundBlendMode: "multiply",
           }}
         >
-          <h4>G.S.T</h4>
+          <h4>VAT</h4>
           <hr />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
@@ -158,8 +196,9 @@ const Serviceheading = styled.div`
   margin: auto;
   padding: 30px;
   text-align: center;
+  margin-right: 200px;
   p {
-    font-size: 25px;
+    font-size: 15px;
   }
   h2 {
     text-align: center;

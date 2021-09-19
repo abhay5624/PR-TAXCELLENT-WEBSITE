@@ -35,7 +35,7 @@ const Contact = () => {
           <div id="first">
             <h1>QUICK REACH US</h1>
             <p>
-              <FontAwesomeIcon icon={faMailBulk} /> Prtaxcellent@gmail.com
+              <FontAwesomeIcon icon={faMailBulk} /> prtaxcellent@outlook.com
             </p>
             <p>
               <FontAwesomeIcon icon={faPhoneAlt} /> +91-9310070808,
@@ -61,7 +61,13 @@ const Contact = () => {
           </div>
           <div id="Second">
             <h1>CONTACT US</h1>
-            <form name="contact" method="POST" data-netlify="true">
+            <form
+              name="contact"
+              method="post"
+              data-netlify="true"
+              onSubmit="submit"
+            >
+              <input type="hidden" name="form-name" value="contact" />
               <Inputstyled
                 type="text"
                 name="name"
@@ -70,8 +76,8 @@ const Contact = () => {
                 required
               />
               <Inputstyled
-                type="text"
-                name="mail"
+                type="email"
+                name="email"
                 id="usermail"
                 placeholder="Enter Mail Address"
               />
@@ -96,7 +102,9 @@ const Contact = () => {
                 rows="10"
                 placeholder="Message"
               ></Areastyle>
-              <Submitbttn type="submit" value="Submit" />
+              <Submitbttn type="submit" name="button">
+                SUBMIT
+              </Submitbttn>
             </form>
           </div>
         </div>
@@ -147,7 +155,7 @@ const Inputstyled = styled.input`
   border-color: #a0a0a0;
   border-width: 1px;
 `;
-const Submitbttn = styled.input`
+const Submitbttn = styled.button`
   color: white;
   background-color: #ffa800;
   border: none;
@@ -210,6 +218,9 @@ const Contactcontent = styled.div`
   width: 90%;
   margin: auto;
   p {
+    color: #555555;
+  }
+  a {
     color: #555555;
   }
   .reachus {

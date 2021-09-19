@@ -26,27 +26,27 @@ const Social_media = () => {
             href="https://twitter.com/RTaxcellent"
             style={{ textDecoration: "none", color: "inherit" }}
           >
-            <FontAwesomeIcon icon={faFacebookSquare} size="7x" />
+            <FontAwesomeIcon icon={faFacebookSquare} size="6x" />
           </a>
           <a
             href="https://twitter.com/RTaxcellent"
             style={{ textDecoration: "none", color: "inherit" }}
           >
-            <FontAwesomeIcon icon={faTwitterSquare} size="7x" />
+            <FontAwesomeIcon icon={faTwitterSquare} size="6x" />
           </a>
           <a
             href="https://twitter.com/RTaxcellent"
             style={{ textDecoration: "none", color: "inherit" }}
           >
-            <FontAwesomeIcon icon={faLinkedin} size="7x" />
+            <FontAwesomeIcon icon={faLinkedin} size="6x" />
           </a>
           <a
             href="https://www.instagram.com/prtaxcellent/"
             style={{ textDecoration: "none", color: "inherit" }}
           >
-            <FontAwesomeIcon icon={faInstagram} size="7x" />
+            <FontAwesomeIcon icon={faInstagram} size="6x" />
           </a>
-          <FontAwesomeIcon icon={faYoutubeSquare} size="7x" />
+          <FontAwesomeIcon icon={faYoutubeSquare} size="6x" />
         </div>
       </div>
     </Social>

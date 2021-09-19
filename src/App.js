@@ -8,6 +8,10 @@ import Indurstries from "./Pages/Indurstries";
 import Contact from "./Pages/Contact";
 import Resource from "./Pages/Resource";
 import Servicespage from "./Pages/Servicespage";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import Termscondition from "./Pages/Termscondition";
+import Query from "./Pages/Query";
 function App() {
   return (
     <AppStyled>
@@ -20,12 +24,38 @@ function App() {
           <Route path="/contact" exact component={Contact} />
           <Route path="/resources" exact component={Resource} />
           <Route path="/services" exact component={Servicespage} />
+          <Route
+            path="/Terms-and-conditions"
+            exact
+            component={Termscondition}
+          />
+          <Route path="/query" exact component={Query} />
         </Switch>
         <Footer />
       </Router>
+      <Whatsapp>
+        <a href="https://wa.me/9310070808">
+          <FontAwesomeIcon icon={faWhatsapp} size="3x" />
+        </a>
+      </Whatsapp>
     </AppStyled>
   );
 }
+const Whatsapp = styled.div`
+  width: min-content;
+  height: min-content;
+  padding: 15px;
+  position: fixed;
+  right: 0%;
+  bottom: 0%;
+  background-color: #6de059;
+  color: white;
+  border-radius: 50%;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+`;
 const AppStyled = styled.div`
   margin: 0%;
   padding: 0%;

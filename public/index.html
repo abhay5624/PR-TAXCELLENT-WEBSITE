@@ -29,23 +29,40 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
     <title>P R TAXCELLENT & ASSOCIATES</title>
   </head>
   <body style="margin: 0%">
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="text" name="MobileNumber" />
+      <input type="text" name="Subject" />
+      <br />
+      <textarea name="message" id="message"></textarea>
+    </form>
+    <form name="query" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="text" name="DESIGNATION" />
+      <input type="text" name="ORGANIZATION" />
+      <input type="text" name="ADDRESS" />
+      <input type="text" name="TELEPHONE NUMBER" />
+      <input type="text" name="NUMBER" />
+      <input type="email" name="MAIL" />
+      <input type="text" name="SUBJECT" />
+      <textarea name="message"></textarea>
+      <input type="checkbox" name="isQuery" />
+    </form>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>

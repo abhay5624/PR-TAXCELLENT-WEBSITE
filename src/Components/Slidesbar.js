@@ -7,6 +7,7 @@ import image3 from "../img/bbbbb.jpeg";
 import styled from "styled-components";
 import image4 from "../img/startupad.jpeg";
 import image5 from "../img/Main-4.jpeg";
+import { Link } from "react-router-dom";
 const Slidesbar = () => {
   const slideImages = [image2, image1, image3, image4, image5];
   const slideProperties = {
@@ -28,7 +29,7 @@ const Slidesbar = () => {
               We provide outsourcing services in India including Bookkeeping,
               Accounting, Financial Planning & Analysis and Payroll.
             </p>
-            <a>SEND ENQUIRY</a>
+            <Link to="/query">SEND ENQUIRY</Link>
           </div>
         </Slidestyle>
       </div>
@@ -42,8 +43,7 @@ const Slidesbar = () => {
         >
           <div>
             <h1>Risk Advisory Services</h1>
-
-            <a>READ MORE</a>
+            <Link to="/query">SEND ENQUIRY</Link>
           </div>
         </Slidestyle>
       </div>
@@ -62,7 +62,7 @@ const Slidesbar = () => {
               and Financial Modelling services facilitating rational decision
               making.
             </p>
-            <a>SEND ENQUIRY</a>
+            <Link to="/query">SEND ENQUIRY</Link>
           </div>
         </Slidestyle>
       </div>
@@ -81,8 +81,7 @@ const Slidesbar = () => {
               entry strategy, location study, regulatory approvals, startup
               support and secretarial support.
             </p>
-
-            <a>SEND ENQUIRY</a>
+            <Link to="/query">SEND ENQUIRY</Link>
           </div>
         </Slidestyle>
       </div>
@@ -95,8 +94,7 @@ const Slidesbar = () => {
         >
           <div>
             <h1>Taxation Advisory</h1>
-
-            <a>SEND ENQUIRY</a>
+            <Link to="/query">SEND ENQUIRY</Link>
           </div>
         </Slidestyle>
       </div>

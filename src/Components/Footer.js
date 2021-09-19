@@ -17,23 +17,33 @@ const Footer = () => {
         <Linkslist>
           <ul>
             <h3>Policies</h3>
-            <li>Data security pratice</li>
-            <li>Terms & conditions</li>
-            <li>Legal disclaimer</li>
-            <li>Company pvt. policy</li>
-            <li>Copyright policy</li>
+            <li>
+              <Link to="/Terms-and-conditions">Terms & conditions</Link>{" "}
+            </li>
+            <li>
+              <Link to="/Terms-and-conditions">Legal disclaimer</Link>{" "}
+            </li>
+            <li>
+              <Link to="/Terms-and-conditions">Company pvt. policy</Link>{" "}
+            </li>
+            <li>
+              <Link to="/Terms-and-conditions">Copyright policy</Link>{" "}
+            </li>
           </ul>
           <ul>
             <Link to="/contact">
               <h3>Contact us</h3>
             </Link>
-            <Link to="/aboutus">
-              <li>Business partners</li>
-            </Link>
+
+            <li>
+              <Link to="/aboutus">Business partners</Link>
+            </li>
+
             <li>prtaxcellent@outlook.com</li>
-            <Link to="/contact">
-              <li>Advertise with us</li>
-            </Link>
+
+            <li>
+              <Link to="/contact">Advertise with us</Link>
+            </li>
           </ul>
           <ul>
             <h3>Support--</h3>
@@ -45,11 +55,39 @@ const Footer = () => {
           </ul>
         </Linkslist>
         <div className="icons">
-          <FontAwesomeIcon icon={faFacebookSquare} size="5x" className="icon" />
-          <FontAwesomeIcon icon={faTwitterSquare} size="5x" className="icon" />
-          <FontAwesomeIcon icon={faLinkedin} size="5x" className="icon" />
-          <FontAwesomeIcon icon={faInstagram} size="5x" className="icon" />
-          <FontAwesomeIcon icon={faYoutubeSquare} size="5x" className="icon" />
+          <a href="#" style={{ color: "inherit", textDecoration: "none" }}>
+            <FontAwesomeIcon
+              icon={faFacebookSquare}
+              size="5x"
+              className="icon"
+            />
+          </a>
+          <a
+            href="https://twitter.com/RTaxcellent"
+            style={{ color: "inherit", textDecoration: "none" }}
+          >
+            <FontAwesomeIcon
+              icon={faTwitterSquare}
+              size="5x"
+              className="icon"
+            />
+          </a>
+          <a href="#" style={{ color: "inherit", textDecoration: "none" }}>
+            <FontAwesomeIcon icon={faLinkedin} size="5x" className="icon" />
+          </a>
+          <a
+            href="https://www.instagram.com/prtaxcellent/"
+            style={{ color: "inherit", textDecoration: "none" }}
+          >
+            <FontAwesomeIcon icon={faInstagram} size="5x" className="icon" />
+          </a>
+          <a href="#" style={{ color: "inherit", textDecoration: "none" }}>
+            <FontAwesomeIcon
+              icon={faYoutubeSquare}
+              size="5x"
+              className="icon"
+            />
+          </a>
         </div>
       </Linksul>
       <div>
@@ -114,7 +152,7 @@ const Footer = () => {
           href="https://wa.me/7827808430"
           style={{ color: "#FFA800", textDecoration: "none" }}
         >
-          Abhay Sharma
+          Abhay Kumar Sharma
         </a>
       </Copyright>
     </Footerstyle>
@@ -145,8 +183,10 @@ const Footerstyle = styled.footer`
   h4 {
     color: #ffa800;
   }
-  .icon {
+  a {
     margin: auto;
+  }
+  .icon {
     color: #ffa800;
     cursor: pointer;
     &:hover {

@@ -1,7 +1,8 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Logo from "../img/logo 16.09.21.jpg";
 import { Link } from "react-router-dom";
+import Logo from "../img/logo 16.09.21.jpg";
+
 import {
   faTwitter,
   faFacebook,
@@ -62,8 +63,12 @@ const Nav = () => {
         </Socialdetail>
       </Navstyle>
       <Navstyletwo>
-        <div>
+        <div className="logo">
           <img src={Logo} alt="" />
+          <div>
+            <h1> P R TAXCELLENT & ASSOCIATES</h1>
+            <h2>Financial | Tax | Legal | Adviser</h2>
+          </div>
         </div>
         <div className="Links">
           <Link to="/">HOME</Link>
@@ -174,8 +179,30 @@ const Navstyletwo = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Cinzel", serif;
+    div {
+      text-align: center;
+    }
+    h1 {
+      font-size: 20px;
+      font-family: "Cinzel", serif;
+      margin-bottom: 0%;
+      padding-bottom: 0%;
+    }
+    h2 {
+      font-size: 14px;
+      font-family: "Cinzel", serif;
+    }
+    img {
+      width: 170px;
+    }
+  }
   .Links {
-    width: 70%;
+    width: 55%;
     display: flex;
     justify-content: space-evenly;
     font-family: "Josefin Sans", sans-serif;

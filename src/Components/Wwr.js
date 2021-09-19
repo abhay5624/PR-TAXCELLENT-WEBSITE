@@ -8,6 +8,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { keyframes } from "styled-components";
 import { useRef } from "react";
+import TrndImg from "../img/Update.jpeg";
 const Wwr = () => {
   const list = useRef(null);
   const animationhold = (e) => {
@@ -18,7 +19,7 @@ const Wwr = () => {
   return (
     <Wwrstyle id="trending">
       <div className="who">
-        <h1>WELCOME TO P R TAXCELLENT & ASSOCIATES ?</h1>
+        <h1>WELCOME TO P R TAXCELLENT & ASSOCIATES </h1>
         <p>
           P R Taxcellent & Associates firm was established in INDIA in 2010 and
           has currently become on of the leading firm in North India. The firm
@@ -75,7 +76,14 @@ const Wwr = () => {
         <div>
           <h2>Trending</h2>
         </div>
-        <div className="news">
+        <div
+          className="news"
+          style={{
+            backgroundImage: `url(${TrndImg})`,
+            backgroundSize: "cover",
+            backgroundPositionY: "150%",
+          }}
+        >
           <ul
             ref={list}
             onMouseEnter={animationhold}
@@ -227,9 +235,13 @@ const Wwrstyle = styled.div`
     margin: 10px;
     height: 400px;
     overflow-y: hidden;
+    background-color: white;
+    background-blend-mode: multiply;
     .news {
       overflow-y: hidden;
-      background-color: white;
+      background-color: #ffffffc8;
+      background-blend-mode: screen;
+
       color: black;
       text-align: left;
     }
@@ -254,7 +266,7 @@ const Wwrstyle = styled.div`
     div {
       background-color: #48484c;
       color: white;
-
+      margin-bottom: 0%;
       text-align: center;
       h2 {
         padding: 4px;

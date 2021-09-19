@@ -3,31 +3,38 @@ import styled from "styled-components";
 const Card = ({ name, profile, post, description, width }) => {
   return (
     <Cardstyle style={{ width: `${width}` }}>
-      <img src={profile} alt="" />
-      <h4 className="name">{name}</h4>
+      <div
+        className="profilepic"
+        style={{ backgroundImage: `url(${profile})`, backgroundSize: "cover" }}
+      ></div>
+
+      <h6 className="name">{name}</h6>
       <h3>{post}</h3>
       <p>{description}</p>
     </Cardstyle>
   );
 };
 const Cardstyle = styled.div`
-  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
-
   margin: auto;
+
   padding: 50px;
+  margin: 3px;
   .name {
-    width: 100%;
+    width: 200px;
     font-size: 20px;
-    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     background-color: #ffa800;
     color: white;
     text-align: center;
     text-transform: capitalize;
+    margin: auto;
   }
-  img {
-    width: 100%;
-    height: 400px;
+  .profilepic {
+    width: 200px;
+    height: 200px;
     object-fit: cover;
+
     margin: auto;
   }
   h3 {
