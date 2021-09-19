@@ -119,6 +119,7 @@ const Slidestyle = styled.div`
     color: white;
     background-color: #126fa2;
     padding: 10px 20px;
+    text-decoration: none;
   }
 `;
 export default Slidesbar;
