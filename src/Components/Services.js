@@ -123,7 +123,7 @@ const Services = ({ servImage }) => {
             backgroundSize: "cover",
           }}
         >
-          <h4>PAYROLL TAX</h4> <hr />
+          <h4>PAYROLL</h4> <hr />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
             impedit amet repudiandae, libero enim, optio aliquam corporis

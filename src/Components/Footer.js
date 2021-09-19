@@ -99,7 +99,7 @@ const Footer = () => {
           <h3>M Block, Connaught Place, New Delhi-110001</h3>
         </Location>
         <h4>Legal Disclaimer</h4>
-        <p>
+        <p style={{ textAlign: "justify" }}>
           Your access to this website constitutes your agreement to be bound by
           all terms and conditions listed herein below. If you do not agree to
           this, you may not access or otherwise use the website. The material
@@ -120,7 +120,7 @@ const Footer = () => {
           products, services or other materials on or available from such sites
           or resources.
         </p>
-        <p>
+        <p style={{ textAlign: "justify" }}>
           The inclusion of hyperlinks to such sites does not imply any
           endorsement of the material on such websites or any association with
           their operators. We. shall not be responsible or liable, directly or
