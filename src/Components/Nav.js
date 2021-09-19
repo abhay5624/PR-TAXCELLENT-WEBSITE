@@ -67,7 +67,7 @@ const Nav = () => {
           <img src={Logo} alt="" />
           <div>
             <h1> P R TAXCELLENT & ASSOCIATES</h1>
-            <h2>Financial | Tax | Legal | Adviser</h2>
+            <h2>Financial | Tax | Legal | Advisor</h2>
           </div>
         </div>
         <div className="Links">

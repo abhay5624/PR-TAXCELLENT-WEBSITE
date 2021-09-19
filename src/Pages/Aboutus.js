@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 import backimage from "../img/services1.jpg";
 import image2 from "../img/Why.jpeg";
-import imag3 from "../img/ychoos.jpg";
+import image1 from "../img/team.jpeg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckSquare } from "@fortawesome/free-solid-svg-icons";
 import Team from "../Components/Team";
@@ -50,7 +50,7 @@ const Aboutus = () => {
 
           <div
             style={{
-              backgroundImage: `url(${image2})`,
+              backgroundImage: `url(${image1})`,
               backgroundSize: "cover",
             }}
           ></div>
@@ -59,7 +59,7 @@ const Aboutus = () => {
         <div className="ychooseus">
           <div
             style={{
-              backgroundImage: `url(${imag3})`,
+              backgroundImage: `url(${image2})`,
               backgroundSize: "cover",
             }}
           ></div>
