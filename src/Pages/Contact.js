@@ -195,7 +195,7 @@ const Contactpage = styled.div`
       }
       .mapImage {
         order: 1;
-        width: 80%;
+        width: 100%;
         overflow: hidden;
         height: 30vh;
       }
