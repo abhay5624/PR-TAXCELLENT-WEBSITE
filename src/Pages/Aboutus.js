@@ -118,7 +118,7 @@ const Aboutus = () => {
         <div>
           <h2>Our Mission</h2>
           <hr />
-          <p>
+          <p style={{ textAlign: "justify" }}>
             To provide reliable professional services with integrity, excellence
             and commitment to meet our clients’ needs.
           </p>
@@ -126,7 +126,7 @@ const Aboutus = () => {
         <div>
           <h2>Our Vission</h2>
           <hr />
-          <p>
+          <p style={{ textAlign: "justify" }}>
             To establish a one roof platform for clients for all their
             professional needs and to improve constantly
           </p>
@@ -134,7 +134,7 @@ const Aboutus = () => {
         <div>
           <h2>Our Beliefs</h2>
           <hr />
-          <p>
+          <p style={{ textAlign: "justify" }}>
             We belief in moral values and accept that there are no shortcuts for
             quality of professional services.
           </p>
@@ -142,7 +142,7 @@ const Aboutus = () => {
         <div>
           <h2>Our Ethics</h2>
           <hr />
-          <p>
+          <p style={{ textAlign: "justify" }}>
             We abide by the professional ethics and would like to restrain
             ourselves from any conduct that may discredit our profession.
           </p>
@@ -216,6 +216,7 @@ const Aboutuspage = styled.div`
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    margin: auto;
   }
   .mission {
     width: 100%;

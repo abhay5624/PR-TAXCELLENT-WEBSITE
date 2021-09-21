@@ -9,18 +9,18 @@ const Team = ({ description, width }) => {
       <h2>Our Team's</h2>
       <Cards>
         <Card
-          name="PRASHANT AGGARWAL"
+          fname="PRASHANT"
+          Lname="AGGARWAL"
           profile={image2}
           post="Partner"
-          description={description[1]}
           width={width}
         />
 
         <Card
-          name="RAVI MALIK"
+          fname="RAVI "
+          lname="MALIK"
           profile={image1}
           post="Partner"
-          description={description[0]}
           width={width}
         />
       </Cards>

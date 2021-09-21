@@ -3,11 +3,11 @@ import styled from "styled-components";
 const Service1 = () => {
   return (
     <Service>
-      <h1 id="a">BUSINESS SETUP ADVISORY</h1>
-      <h1 id="b">TRANSACTION ADVISORY</h1>
-      <h1 id="c">TAXATION & REGULATION SERVICES</h1>
-      <h1 id="d">AUDIT & ASSURANCE SERVICES</h1>
-      <h1 id="e">NON-CORE PROCESS OUTSOURCING</h1>
+      <h1 id="a">Global Business Services</h1>
+      <h1 id="b">Risk Advisory Services</h1>
+      <h1 id="c">Transactions Advisory</h1>
+      <h1 id="d">Setup Advisory</h1>
+      <h1 id="e">Taxation Advisory</h1>
     </Service>
   );
 };
@@ -15,9 +15,8 @@ const Service = styled.div`
   display: flex;
   color: black;
   margin-left: 10px;
-
   h1 {
-    font-size: 13px;
+    font-size: 17px;
     text-align: center;
     margin: 0%;
     padding: 5px;
@@ -25,6 +24,7 @@ const Service = styled.div`
     padding-bottom: 7px;
     display: flex;
     align-items: center;
+    justify-content: center;
   }
 
   #a {
