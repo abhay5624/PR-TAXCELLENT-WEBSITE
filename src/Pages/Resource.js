@@ -19,7 +19,6 @@ const Resource = () => {
         <h1>Acts</h1>
         <ul>
           <li>
-            {" "}
             <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
             Income Tax Act, 1961
           </li>
@@ -171,10 +170,10 @@ const ResourceContent = styled.div`
     flex-wrap: wrap;
 
     li {
-      padding: 15px;
+      padding: 13px;
       border: 1px solid #646464;
       font-size: 17px;
-      width: 30.2%;
+      width: 100%;
       .icon {
         padding-right: 5px;
       }

@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <div>
       <Slidesbar />
-      <Service1 />
+  
       <Extra>
         <h1>
           We are present in 80+ cities within india via our alliance and

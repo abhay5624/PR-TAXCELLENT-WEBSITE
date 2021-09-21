@@ -30,7 +30,7 @@ const Aboutus = () => {
       <AboutContent>
         <div className="whoweare">
           <div>
-            <h2>Who we are ?</h2>
+            <h2>WHO WE ARE ?</h2>
             <p>
               P R Taxcellent & Associates firm was established in INDIA in 2010
               and has currently become on of the leading firm in North India.

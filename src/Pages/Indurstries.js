@@ -45,113 +45,76 @@ const Indurstries = () => {
           <div>
             <ul>
               <li>
-                <FontAwesomeIcon icon={faBus} size="2x" className="icon" />
+                <FontAwesomeIcon icon={faBus} className="icon" />
                 Automotive
               </li>
               <li>
-                <FontAwesomeIcon icon={faBook} size="2x" className="icon" />
+                <FontAwesomeIcon icon={faBook} className="icon" />
                 Education
               </li>
               <li>
-                <FontAwesomeIcon icon={faCapsules} size="2x" className="icon" />
+                <FontAwesomeIcon icon={faCapsules} className="icon" />
                 Pharmaceuticals
               </li>
               <li>
-                <FontAwesomeIcon
-                  icon={faRupeeSign}
-                  size="2x"
-                  className="icon"
-                />
+                <FontAwesomeIcon icon={faRupeeSign} className="icon" />
                 Banking / Financial Sector
               </li>
               <li>
-                <FontAwesomeIcon
-                  icon={faLaptopCode}
-                  size="2x"
-                  className="icon"
-                />
+                <FontAwesomeIcon icon={faLaptopCode} className="icon" />
                 Information Technology
               </li>
               <li>
-                <FontAwesomeIcon icon={faHammer} size="2x" className="icon" />
+                <FontAwesomeIcon icon={faHammer} className="icon" />
                 Steel and Irons
               </li>
               <li>
-                <FontAwesomeIcon icon={faTractor} size="2x" className="icon" />
+                <FontAwesomeIcon icon={faTractor} className="icon" />
                 Agriculture
               </li>
               <li>
-                <FontAwesomeIcon icon={faHospital} size="2x" className="icon" />
+                <FontAwesomeIcon icon={faHospital} className="icon" />
                 Hospitals
               </li>
               <li>
-                <FontAwesomeIcon
-                  icon={faWindowRestore}
-                  size="2x"
-                  className="icon"
-                />
+                <FontAwesomeIcon icon={faWindowRestore} className="icon" />
                 E-Commerce
               </li>
-            </ul>
-          </div>
-
-          <div>
-            <ul>
               <li>
-                <FontAwesomeIcon
-                  icon={faShoppingCart}
-                  size="2x"
-                  className="icon"
-                />
+                <FontAwesomeIcon icon={faShoppingCart} className="icon" />
                 Import and Export
               </li>
               <li>
-                <FontAwesomeIcon icon={faStoreAlt} size="2x" className="icon" />{" "}
-                Retails and Whole sale
+                <FontAwesomeIcon icon={faStoreAlt} className="icon" /> Retails
+                and Whole sale
               </li>
               <li>
-                <FontAwesomeIcon icon={faHome} size="2x" className="icon" />
+                <FontAwesomeIcon icon={faHome} className="icon" />
                 Real Estate
               </li>
 
               <li>
-                <FontAwesomeIcon
-                  icon={faUserInjured}
-                  size="2x"
-                  className="icon"
-                />
+                <FontAwesomeIcon icon={faUserInjured} className="icon" />
                 Insurance
               </li>
               <li>
-                <FontAwesomeIcon
-                  icon={faCameraRetro}
-                  size="2x"
-                  className="icon"
-                />
+                <FontAwesomeIcon icon={faCameraRetro} className="icon" />
                 Media and Entertainment
               </li>
               <li>
-                <FontAwesomeIcon
-                  icon={faNewspaper}
-                  size="2x"
-                  className="icon"
-                />
+                <FontAwesomeIcon icon={faNewspaper} className="icon" />
                 Publiation
               </li>
               <li>
-                <FontAwesomeIcon icon={faTaxi} size="2x" className="icon" />
+                <FontAwesomeIcon icon={faTaxi} className="icon" />
                 Transportation and Logistics
               </li>
               <li>
-                <FontAwesomeIcon icon={faAtom} size="2x" className="icon" />
+                <FontAwesomeIcon icon={faAtom} className="icon" />
                 Chemical and related
               </li>
               <li>
-                <FontAwesomeIcon
-                  icon={faHandsHelping}
-                  size="2x"
-                  className="icon"
-                />
+                <FontAwesomeIcon icon={faHandsHelping} className="icon" />
                 Charitable Trust
               </li>
             </ul>
@@ -165,18 +128,24 @@ const Flexbox = styled.div`
   width: 80%;
   margin: auto;
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
   div {
     background-color: #ffa800;
     color: black;
-    width: 40%;
+    width: 100%;
+    font-size: 18px;
     ul {
-      font-size: 30px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
       list-style: none;
+
       li {
         display: flex;
         align-items: center;
-        padding: 10px;
+        padding: 5px;
+        width: 20%;
       }
     }
   }
@@ -186,7 +155,7 @@ const Induspage = styled.div`
   margin: auto;
   font-family: "Josefin Sans", sans-serif;
   .icon {
-    padding: 20px;
+    padding: 10px;
     border-radius: 50%;
     border: 4px solid black;
     margin: 10px;

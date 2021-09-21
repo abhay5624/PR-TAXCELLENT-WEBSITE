@@ -8,8 +8,6 @@ const Card = ({ fname, lname, profile }) => {
         style={{ backgroundImage: `url(${profile})`, backgroundSize: "cover" }}
       ></div>
 
-      <h6 className="name">{fname}</h6>
-      <h6 className="name">{lname}</h6>
     </Cardstyle>
   );
 };
