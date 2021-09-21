@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faMailBulk,
+  faMapMarkerAlt,
   faPhoneAlt,
-  faThumbtack,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faInstagram,
@@ -14,7 +14,7 @@ import {
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
 import Mapimg from "../img/mapimage.PNG";
-import Mapimg1 from "../img/mapimage2.PNG";
+
 const Contact = () => {
   return (
     <Contactpage>
@@ -35,7 +35,7 @@ const Contact = () => {
           <div id="first">
             <h1>QUICK REACH US</h1>
             <p>
-              <FontAwesomeIcon icon={faMailBulk} /> prtaxcellent@outlook.com
+              <FontAwesomeIcon icon={faMailBulk} /> info@prtaxcellent.com
             </p>
             <p>
               <FontAwesomeIcon icon={faPhoneAlt} /> +91-9310070808,
@@ -48,14 +48,16 @@ const Contact = () => {
             </p>
             <p>
               <a href="https://twitter.com/RTaxcellent">
-                <FontAwesomeIcon icon={faTwitter} /> @prtaxcellent (P R
-                Taxcellent & Associates)
+                <FontAwesomeIcon icon={faTwitter} /> @prtaxcellent
               </a>
             </p>
             <p>
               <a href="https://www.instagram.com/prtaxcellent/">
-                <FontAwesomeIcon icon={faInstagram} />P R Taxcellent &
-                Associates
+                <FontAwesomeIcon
+                  icon={faInstagram}
+                  style={{ marginRight: "7px" }}
+                />
+                P R Taxcellent & Associates
               </a>
             </p>
           </div>
@@ -113,31 +115,15 @@ const Contact = () => {
           <h3>Head Office</h3>
           <div className="address">
             <div className="addressinword">
-              <FontAwesomeIcon icon={faThumbtack} size="2x" />
-              <h4> M Block, Connaught Place, New Delhi-110001</h4>
+              <FontAwesomeIcon icon={faMapMarkerAlt} size="2x" />
+              <h4>
+                A-264, Ground Floor, Indrapuri, Loni, Ghaziabad (U.P) - 201102
+              </h4>
             </div>
             <div className="mapImage">
               <img src={Mapimg} alt="" />
               <div>
                 <a href="https://www.google.com/maps/place/M+Block,+Block-M+Connaught+Place,+Connaught+Cir,+Block+M,+Connaught+Place,+New+Delhi,+Delhi+110001/@28.6332818,77.2200493,17z/data=!3m1!4b1!4m5!3m4!1s0x390cfd3726d5a1f7:0x27f0747e8ad0f794!8m2!3d28.6332818!4d77.222238">
-                  VIEW IN LARGER MAP
-                </a>
-              </div>
-            </div>
-          </div>
-          <h3>Branch Office</h3>
-          <div className="address">
-            <div className="addressinword" style={{ width: "28%" }}>
-              <FontAwesomeIcon icon={faThumbtack} size="2x" />
-              <h4>
-                {" "}
-                H-404, 4th Floor, GDA Housing scheme, Loni, Ghaziabad, UP-201102
-              </h4>
-            </div>
-            <div className="mapImage">
-              <img src={Mapimg1} alt="" />
-              <div>
-                <a href="https://www.google.com/maps/search/H-404,+4th+Floor,+GDA+Housing+scheme,+Loni,+Ghaziabad,+UP-201102/@28.5375906,77.1483724,10z">
                   VIEW IN LARGER MAP
                 </a>
               </div>
@@ -185,6 +171,7 @@ const Contactpage = styled.div`
     }
     .mapImage {
       position: relative;
+      width: 50%;
       div {
         position: absolute;
         top: 20px;

@@ -7,7 +7,8 @@ import {
   faYoutubeSquare,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
-import { faThumbtack } from "@fortawesome/free-solid-svg-icons";
+
+import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 const Footer = () => {
@@ -92,11 +93,14 @@ const Footer = () => {
       </Linksul>
       <div>
         <Location>
-          <a href="https://www.google.com/maps/place/M+Block,+Block-M+Connaught+Place,+Connaught+Cir,+Block+M,+Connaught+Place,+New+Delhi,+Delhi+110001/@28.6332818,77.2200493,17z/data=!3m1!4b1!4m5!3m4!1s0x390cfd3726d5a1f7:0x27f0747e8ad0f794!8m2!3d28.6332818!4d77.222238">
-            <FontAwesomeIcon icon={faThumbtack} size="3x" className="icon" />
+          <a href="https://www.google.com/maps?q=A-264,+Ground+Floor,+Indrapuri,+Loni,+Ghaziabad+(U.P)+-+201102&um=1&ie=UTF-8&sa=X&ved=2ahUKEwix0YXyy4_zAhW_xzgGHVk7AvoQ_AUoAXoECAIQAw">
+            <FontAwesomeIcon icon={faMapMarkerAlt} size="3x" className="icon" />
           </a>
 
-          <h3>M Block, Connaught Place, New Delhi-110001</h3>
+          <h3>
+            {" "}
+            A-264, Ground Floor, Indrapuri, Loni, Ghaziabad (U.P) - 201102
+          </h3>
         </Location>
         <h4>Legal Disclaimer</h4>
         <p style={{ textAlign: "justify" }}>
