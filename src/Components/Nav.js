@@ -2,7 +2,6 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 import Logo from "../img/logo 16.09.21.jpg";
-import { useRef, useState } from "react";
 import {
   faLinkedin,
   faYoutubeSquare,
@@ -15,41 +14,12 @@ import {
   faEnvelope,
   faPhoneAlt,
   faChevronDown,
-  faBars,
-  faTimes,
 } from "@fortawesome/free-solid-svg-icons";
 import styled from "styled-components";
 
 const Nav = () => {
-  const navLink = useRef(null);
-  const [DisplayLinks, setDisplayLinks] = useState(false);
-
-  const Navtoggle = () => {
-    if (DisplayLinks) {
-      navLink.current.style.display = "none";
-      setDisplayLinks(false);
-    } else {
-      navLink.current.style.display = "flex";
-      setDisplayLinks(true);
-    }
-  };
   return (
     <Positionfixednav>
-      <Hamburger onClick={Navtoggle}>
-        {DisplayLinks ? (
-          <FontAwesomeIcon
-            icon={faTimes}
-            size="2x"
-            style={{ marginTop: "-2px" }}
-          />
-        ) : (
-          <FontAwesomeIcon
-            icon={faBars}
-            size="2x"
-            style={{ marginTop: "-2px" }}
-          />
-        )}
-      </Hamburger>
       <Navstyle>
         <Socalmedia>
           <a
@@ -154,7 +124,7 @@ const Nav = () => {
           </div>
         </div>
 
-        <div className="Links" ref={navLink}>
+        <div className="Links">
           <Link to="/">HOME</Link>
 
           <div className="dropdown">

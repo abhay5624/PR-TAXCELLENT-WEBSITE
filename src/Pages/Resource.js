@@ -19,132 +19,162 @@ const Resource = () => {
         <h1>Acts</h1>
         <ul>
           <li>
-            <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
-            Income Tax Act, 1961
+            <a href="https://www.incometaxindia.gov.in/pages/acts/income-tax-act.aspx">
+              <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
+              Income Tax Act, 1961
+            </a>
           </li>
           <li>
-            <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
-            GST Act, 2017
+            <a href="https://www.cbic.gov.in/resources/htdocs-cbec/gst/cgst-act.pdf">
+              <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
+              GST Act, 2017
+            </a>
           </li>
           <li>
-            <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
-            Central Excise Act, 1944
+            <a href="https://www.cbic.gov.in/htdocs-cbec/excise/cx-act/cx-act-ch2-june16#:~:text=(a)a%20duty%20of%20excise,1985%20(5%20of%201986)%3B">
+              {" "}
+              <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
+              Central Excise Act, 1944
+            </a>
           </li>
           <li>
-            <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
-            Custom Act, 1962
+            <a href="https://www.cbic.gov.in/htdocs-cbec/customs/cs-acts-botm">
+              <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
+              Custom Act, 1962
+            </a>
           </li>
           <li>
-            <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
-            Companies Act, 2013
+            <a href="https://www.mca.gov.in/Ministry/pdf/CompaniesAct2013.pdf">
+              {" "}
+              <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
+              Companies Act, 2013
+            </a>
           </li>
           <li>
-            <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
-            The Limited Liability Partnership Act, 2008
+            <a href="https://legislative.gov.in/sites/default/files/The Limited Liability Partnership Act, 2008.pdf">
+              <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
+              The Limited Liability Partnership Act, 2008
+            </a>
           </li>
           <li>
-            <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
-            Foreign Exchange Management Act, 1999
+            <a href="https://legislative.gov.in/sites/default/files/A1999-42_0.pdf">
+              {" "}
+              <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
+              Foreign Exchange Management Act, 1999
+            </a>
           </li>
           <li>
-            <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
-            Employees’ State Insurance Act, 1948
+            <a href="https://www.esic.nic.in/Tender/ESIAct1948Amendedupto010610.pdf">
+              {" "}
+              <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
+              Employees’ State Insurance Act, 1948
+            </a>
           </li>
           <li>
-            <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
-            Employees’ Provident Fund Act, 1952
+            <a href="https://www.epfindia.gov.in/site_docs/PDFs/Downloads_PDFs/EPFAct1952.pdf">
+              {" "}
+              <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
+              Employees’ Provident Fund Act, 1952
+            </a>
           </li>
           <li>
-            <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
-            Right to Information Act, 2005
+            <a href="https://rti.gov.in/rti-act.pdf">
+              <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
+              Right to Information Act, 2005
+            </a>
           </li>
           <li>
-            <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
-            Central Sales Tax Act, 1956
+            <a href="https://ctd.tn.gov.in/documents/10184/10928/CENTRAL+SALES+TAX+ACT%2C+1956/f6b71891-575e-4bca-a345-9779071498a5?version=1.2">
+              {" "}
+              <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
+              Central Sales Tax Act, 1956
+            </a>
           </li>
           <li>
-            <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
-            Delhi Value Added Tax, 2004
+            <a href="https://dvat.gov.in/App_Themes/PublicNotices/DVAT_ACT_2014.pdf">
+              <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
+              Delhi Value Added Tax, 2004
+            </a>
           </li>
           <li>
-            <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
-            The Securities and Exchange Board of India Act, 1992
-          </li>
-          <li>
-            <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
-            Entry Tax Act
+            <a href="https://www.sebi.gov.in/sebi_data/attachdocs/1456380272563.pdf">
+              {" "}
+              <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
+              The Securities and Exchange Board of India Act, 1992
+            </a>
           </li>
         </ul>
         <h1>Calculators</h1>
         <ul>
           <li>
-            <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
-            TDS Calculator
+            <a href="https://www.incometaxindia.gov.in/Pages/tools/tds-calculator.aspx">
+              <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
+              TDS Calculator
+            </a>
           </li>
           <li>
-            <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
-            Tax Calculator
+            <a href="https://www.incometaxindia.gov.in/pages/tools/advance-tax-calculator.aspx">
+              <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
+              Tax Calculator
+            </a>
           </li>
           <li>
-            <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
-            HRA Calculator
+            <a href="https://www.incometaxindia.gov.in/Pages/tools/house-rent-allowance-calculator.aspx">
+              <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
+              HRA Calculator
+            </a>
+          </li>
+
+          <li>
+            <a href="https://emicalculator.net/">
+              <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
+              Home Loan Calculator
+            </a>
           </li>
           <li>
-            <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
-            VAT Calculator
+            <a href="https://emicalculator.net/">
+              <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
+              Auto Loan Calculator
+            </a>
           </li>
           <li>
-            <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
-            Home Loan Calculator
-          </li>
-          <li>
-            <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
-            Auto Loan Calculator
-          </li>
-          <li>
-            <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
-            EMI Calculator
+            <a href="https://emicalculator.net/">
+              <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
+              EMI Calculator
+            </a>
           </li>
         </ul>
         <h1>Utilities</h1>
         <ul>
           <li>
-            {" "}
             <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
             Rates of TDS
           </li>
           <li>
-            {" "}
             <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
             Rates of Income Tax
           </li>
           <li>
-            {" "}
             <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
             Rates of Depreciation under Companies Act
           </li>
           <li>
-            {" "}
             <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
             Rates of Depreciation under Income Tax Act
           </li>
           <li>
-            {" "}
             <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
             ROC filing fees
           </li>
           <li>
-            {" "}
             <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
             Cost Inflation Index
           </li>
           <li>
-            {" "}
             <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
             Gold and Silver Rates
           </li>
           <li>
-            {" "}
             <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
             IFSC Codes
           </li>
@@ -174,6 +204,11 @@ const ResourceContent = styled.div`
       border: 1px solid #646464;
       font-size: 17px;
       width: 100%;
+      a {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+      }
       .icon {
         padding-right: 5px;
       }

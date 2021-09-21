@@ -12,11 +12,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import Termscondition from "./Pages/Termscondition";
 import Query from "./Pages/Query";
+import NavforMobile from "./Components/NavforMobile";
 function App() {
   return (
     <AppStyled>
       <Router>
         <Nav />
+        <NavforMobile />
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/aboutus" exact component={Aboutus} />

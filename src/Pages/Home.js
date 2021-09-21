@@ -1,7 +1,7 @@
 import React from "react";
 import "react-slideshow-image/dist/styles.css";
 import Slidesbar from "../Components/Slidesbar";
-import Service1 from "../Components/Service1";
+
 import Wwr from "../Components/Wwr";
 import styled from "styled-components";
 import Services from "../Components/Services";
