@@ -13,16 +13,9 @@ const Team = ({ description, width }) => {
           lname="AGGARWAL"
           profile={image2}
           post="Partner"
-          width={width}
         />
 
-        <Card
-          fname="RAVI "
-          lname="MALIK"
-          profile={image1}
-          post="Partner"
-          width={width}
-        />
+        <Card fname="RAVI " lname="MALIK" profile={image1} post="Partner" />
       </Cards>
     </Teammember>
   );
@@ -34,7 +27,7 @@ const Teammember = styled.div`
   }
 `;
 const Cards = styled.div`
-  width: 80%;
+  width: 100%;
   margin: auto;
   display: flex;
   flex-wrap: wrap;

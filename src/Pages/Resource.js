@@ -147,36 +147,56 @@ const Resource = () => {
         <h1>Utilities</h1>
         <ul>
           <li>
-            <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
-            Rates of TDS
+            <a href="https://www.incometaxindia.gov.in/pages/charts-and-tables.aspx">
+              <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
+              Rates of TDS
+            </a>
           </li>
           <li>
-            <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
-            Rates of Income Tax
+            <a href="https://www.incometaxindia.gov.in/pages/charts-and-tables.aspx">
+              <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
+              Rates of Income Tax
+            </a>
           </li>
           <li>
-            <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
-            Rates of Depreciation under Companies Act
+            <a href="https://www.mca.gov.in/content/mca/global/en/acts-rules/companies-act/companies-act-2013.html">
+              <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
+              Rates of Depreciation under Companies Act
+            </a>
           </li>
           <li>
-            <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
-            Rates of Depreciation under Income Tax Act
+            <a href="https://www.incometaxindia.gov.in/_layouts/15/dit/mobile/viewer.aspx?path=https://www.incometaxindia.gov.in/charts%20%20tables/depreciation%20rates.htm&k=&IsDlg=0">
+              <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
+              Rates of Depreciation under Income Tax Act
+            </a>
           </li>
           <li>
-            <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
-            ROC filing fees
+            <a href="https://www.mca.gov.in/mcafoportal/enquireFeePreLogin.do">
+              {" "}
+              <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
+              ROC filing fees
+            </a>
           </li>
           <li>
-            <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
-            Cost Inflation Index
+            <a href="https://www.incometaxindia.gov.in/Pages/utilities/cost-Inflation-Index.aspx">
+              {" "}
+              <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
+              Cost Inflation Index
+            </a>
           </li>
           <li>
-            <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
-            Gold and Silver Rates
+            <a href="">
+              {" "}
+              <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
+              Gold and Silver Rates
+            </a>
           </li>
           <li>
-            <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
-            IFSC Codes
+            <a href="https://www.rbi.org.in/Scripts/IFSCMICRDetails.aspx">
+              {" "}
+              <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
+              IFSC Codes
+            </a>
           </li>
         </ul>
       </ResourceContent>

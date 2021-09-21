@@ -166,6 +166,10 @@ const Navlist = styled.div`
   transition: all 0.5s ease-in-out;
   z-index: 25;
   ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 60vh;
     margin-top: 60px;
     list-style: none;
 
@@ -173,7 +177,7 @@ const Navlist = styled.div`
     padding: 10%;
     li {
       font-size: 20px;
-      border-bottom: 2px solid #4b4b4b;
+
       text-align: left;
       padding: 5px;
       width: 80%;
@@ -185,9 +189,13 @@ const Navlist = styled.div`
         margin-top: 5%;
         padding-left: 20%;
         display: none;
+        height: fit-content;
         li {
           padding: 3px;
-          background-color: #e7dfdf;
+          border-bottom: 2px solid #4b4b4b;
+          &:hover {
+            background-color: #d4d4d4;
+          }
         }
       }
     }
@@ -196,6 +204,7 @@ const Navlist = styled.div`
       font-size: 18px;
       margin: 0%;
       padding: 0%;
+      background-color: white;
     }
   }
 `;

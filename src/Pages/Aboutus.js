@@ -29,7 +29,7 @@ const Aboutus = () => {
 
       <AboutContent>
         <div className="whoweare">
-          <div>
+          <div className="text">
             <h2>WHO WE ARE ?</h2>
             <p>
               P R Taxcellent & Associates firm was established in INDIA in 2010
@@ -49,6 +49,7 @@ const Aboutus = () => {
           </div>
 
           <div
+            className="images"
             style={{
               backgroundImage: `url(${image1})`,
               backgroundSize: "cover",
@@ -58,13 +59,14 @@ const Aboutus = () => {
 
         <div className="ychooseus">
           <div
+            className="images"
             style={{
               backgroundImage: `url(${image2})`,
               backgroundSize: "cover",
             }}
           ></div>
 
-          <div>
+          <div className="text">
             <h2>WHY WORK WITH US ? </h2>
             <p>
               We challenge our people to learn more, look deeper and offer them
@@ -167,14 +169,30 @@ const AboutContent = styled.div`
 
   .whoweare {
     display: flex;
+
     text-align: justify;
     margin-bottom: 100px;
     div {
-      width: 50%;
+      width: 80%;
       object-fit: cover;
       padding: 15px;
     }
+    @media (max-width: 768px) {
+      flex-direction: column;
+      .images {
+        order: 1;
+        height: 30vh;
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+      }
+      .text {
+        width: 80%;
+        order: 2;
+      }
+    }
   }
+
   .ychooseus {
     display: flex;
     text-align: justify;
@@ -192,6 +210,20 @@ const AboutContent = styled.div`
           color: #242424;
           margin: 7px;
         }
+      }
+    }
+    @media (max-width: 768px) {
+      flex-direction: column;
+      .images {
+        order: 1;
+        height: 30vh;
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+      }
+      .text {
+        width: 80%;
+        order: 2;
       }
     }
   }
@@ -217,6 +249,11 @@ const Aboutuspage = styled.div`
     flex-direction: column;
     flex-wrap: wrap;
     margin: auto;
+    @media (max-width: 768px) {
+      padding: 0%;
+      width: 80%;
+      transform: translateX(-15%);
+    }
   }
   .mission {
     width: 100%;
@@ -243,6 +280,13 @@ const Aboutuspage = styled.div`
         color: #1ee99b;
         border-color: #1ee99b;
         transition: all 1s ease-in-out;
+      }
+    }
+    @media (max-width: 768px) {
+      flex-direction: column;
+
+      div {
+        width: 80%;
       }
     }
   }

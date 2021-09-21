@@ -152,6 +152,12 @@ const Flexbox = styled.div`
           }
         }
       }
+      @media (max-width: 768px) {
+        flex-direction: column;
+        li {
+          width: 80%;
+        }
+      }
     }
   }
 `;

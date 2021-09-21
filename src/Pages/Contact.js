@@ -140,6 +140,9 @@ const Inputstyled = styled.input`
   margin: 3px;
   border-color: #a0a0a0;
   border-width: 1px;
+  @media (max-width: 768px) {
+    width: 79%;
+  }
 `;
 const Submitbttn = styled.button`
   color: white;
@@ -185,6 +188,18 @@ const Contactpage = styled.div`
         }
       }
     }
+    @media (max-width: 768px) {
+      flex-direction: column;
+      .addressinword {
+        order: 2;
+      }
+      .mapImage {
+        order: 1;
+        width: 80%;
+        overflow: hidden;
+        height: 30vh;
+      }
+    }
   }
 `;
 const Gapspace = styled.div`
@@ -221,6 +236,17 @@ const Contactcontent = styled.div`
     }
     #second {
       width: 70%;
+    }
+    @media (max-width: 768px) {
+      flex-direction: column;
+      #first {
+        width: 80%;
+      }
+      #second {
+        input {
+          width: 90%;
+        }
+      }
     }
   }
 `;
