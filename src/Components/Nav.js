@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 import Logo from "../img/logo 16.09.21.jpg";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import {
   faLinkedin,
   faYoutubeSquare,
@@ -15,27 +15,40 @@ import {
   faEnvelope,
   faPhoneAlt,
   faChevronDown,
+  faBars,
+  faTimes,
 } from "@fortawesome/free-solid-svg-icons";
 import styled from "styled-components";
 
 const Nav = () => {
   const navLink = useRef(null);
-  let DisplayLinks = false;
+  const [DisplayLinks, setDisplayLinks] = useState(false);
+
   const Navtoggle = () => {
     if (DisplayLinks) {
       navLink.current.style.display = "none";
-      DisplayLinks = false;
+      setDisplayLinks(false);
     } else {
       navLink.current.style.display = "flex";
-      DisplayLinks = true;
+      setDisplayLinks(true);
     }
   };
   return (
     <Positionfixednav>
       <Hamburger onClick={Navtoggle}>
-        <div></div>
-        <div></div>
-        <div></div>
+        {DisplayLinks ? (
+          <FontAwesomeIcon
+            icon={faTimes}
+            size="2x"
+            style={{ marginTop: "-2px" }}
+          />
+        ) : (
+          <FontAwesomeIcon
+            icon={faBars}
+            size="2x"
+            style={{ marginTop: "-2px" }}
+          />
+        )}
       </Hamburger>
       <Navstyle>
         <Socalmedia>
@@ -209,7 +222,7 @@ const Nav = () => {
 };
 const Hamburger = styled.div`
   position: fixed;
-  right: -9%;
+  right: -5%;
   top: 90px;
   padding: 20px;
   background-color: white;
