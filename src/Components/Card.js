@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-const Card = ({ fname,lname, profile, post, description, width }) => {
+const Card = ({ fname, lname, profile, post, description, width }) => {
   return (
     <Cardstyle style={{ width: `${width}` }}>
       <div
@@ -8,10 +8,8 @@ const Card = ({ fname,lname, profile, post, description, width }) => {
         style={{ backgroundImage: `url(${profile})`, backgroundSize: "cover" }}
       ></div>
 
-      <h6 className="name">{name}</h6>
-      <h3>{fpost}</h3>
-      <h3>{fpost}</h3>
- 
+      <h6 className="name">{fname}</h6>
+      <h6 className="name">{lname}</h6>
     </Cardstyle>
   );
 };

@@ -10,7 +10,7 @@ const Team = ({ description, width }) => {
       <Cards>
         <Card
           fname="PRASHANT"
-          Lname="AGGARWAL"
+          lname="AGGARWAL"
           profile={image2}
           post="Partner"
           width={width}
