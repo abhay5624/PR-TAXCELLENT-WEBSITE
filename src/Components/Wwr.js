@@ -232,6 +232,10 @@ const Wwrstyle = styled.div`
       li {
         margin: 4px;
       }
+      @media (max-width: 768px) {
+        padding: 0%;
+        font-size: 17px;
+      }
     }
     @media (max-width: 768px) {
       width: 100%;

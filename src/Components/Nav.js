@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 import Logo from "../img/logo 16.09.21.jpg";
-
+import { useRef } from "react";
 import {
   faLinkedin,
   faYoutubeSquare,
@@ -17,9 +17,26 @@ import {
   faChevronDown,
 } from "@fortawesome/free-solid-svg-icons";
 import styled from "styled-components";
+
 const Nav = () => {
+  const navLink = useRef(null);
+  let DisplayLinks = false;
+  const Navtoggle = () => {
+    if (DisplayLinks) {
+      navLink.current.style.display = "none";
+      DisplayLinks = false;
+    } else {
+      navLink.current.style.display = "flex";
+      DisplayLinks = true;
+    }
+  };
   return (
     <Positionfixednav>
+      <Hamburger onClick={Navtoggle}>
+        <div></div>
+        <div></div>
+        <div></div>
+      </Hamburger>
       <Navstyle>
         <Socalmedia>
           <a
@@ -123,7 +140,8 @@ const Nav = () => {
             <h2>Financial | Tax | Legal | Advisor</h2>
           </div>
         </div>
-        <div className="Links">
+
+        <div className="Links" ref={navLink}>
           <Link to="/">HOME</Link>
 
           <div className="dropdown">
@@ -189,6 +207,22 @@ const Nav = () => {
     </Positionfixednav>
   );
 };
+const Hamburger = styled.div`
+  position: fixed;
+  right: -9%;
+  top: 90px;
+  padding: 20px;
+  background-color: white;
+  border-bottom-left-radius: 110px;
+  border-top-left-radius: 110px;
+  div {
+    width: 30px;
+    height: 6px;
+    margin: 2px;
+    border-radius: 2px;
+    background-color: black;
+  }
+`;
 const Positionfixednav = styled.div`
   position: fixed;
   top: 0%;
@@ -241,6 +275,9 @@ const Navstyletwo = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
   .logo {
     display: flex;
     flex-direction: row;
@@ -281,9 +318,7 @@ const Navstyletwo = styled.div`
     font-weight: 400;
     font-size: 13px;
     color: #272626;
-    @media (max-width: 768px) {
-      display: none;
-    }
+
     .dropdown {
       text-align: center;
       position: relative;
@@ -309,9 +344,33 @@ const Navstyletwo = styled.div`
             &:hover {
               background-color: #dddada;
             }
+            @media (max-width: 768px) {
+              width: 300px;
+            }
+          }
+          @media (max-width: 768px) {
+            width: 90%;
+          }
+        }
+        @media (max-width: 768px) {
+          position: static;
+          width: 100%;
+          z-index: 1;
+          li {
+            width: 90%;
           }
         }
       }
+      @media (max-width: 768px) {
+        text-align: left;
+      }
+    }
+    @media (max-width: 768px) {
+      display: none;
+      width: 100vw;
+      flex-direction: column;
+      height: 90vh;
+      font-size: 20px;
     }
   }
 

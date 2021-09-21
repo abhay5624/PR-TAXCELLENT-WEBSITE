@@ -121,6 +121,9 @@ const Inputstyled = styled.input`
   margin: 3px;
   border-color: #a0a0a0;
   border-width: 1px;
+  @media (max-width: 768px) {
+    width: 90%;
+  }
 `;
 const Submitbttn = styled.button`
   color: white;
@@ -133,6 +136,9 @@ const Submitbttn = styled.button`
 const Areastyle = styled.textarea`
   width: 90%;
   margin: 3px;
+  @media (max-width: 768px) {
+    width: 105%;
+  }
 `;
 const Labelstyled = styled.div`
   font-size: 24px;
