@@ -194,14 +194,14 @@ const Serviceheading = styled.div`
   width: max-content;
   height: min-content;
   margin: auto;
-  padding: 30px;
+  padding: 10px;
   text-align: center;
-  margin-right: 200px;
+  margin-right: 230px;
   p {
     font-size: 15px;
   }
   h2 {
-    text-align: center;
+    text-align: left;
   }
 `;
 const Servicesection = styled.div`

@@ -24,53 +24,40 @@ const Query = () => {
           <Inputstyled
             type="text"
             name="name"
-            id=""
             placeholder="ENTER NAME"
             required
           />
           <Inputstyled
             type="text"
             name="DESIGNATION"
-            id=""
             placeholder="DESIGNATION"
           />
           <Inputstyled
             type="text"
             name="ORGANIZATION"
-            id=""
             placeholder="ORGANIZATION"
           />
           <Inputstyled
             type="text"
             name="ADDRESS"
-            id=""
             placeholder="OFFICE ADDRESS"
             required
           />
           <Inputstyled
             type="text"
             name="TELEPHONE NUMBER"
-            id=""
             placeholder="TELEPHONE NUMBER"
           />
           <Inputstyled
             type="text"
             name="NUMBER"
-            id=""
             placeholder="MOBILE"
             required
           />
-          <Inputstyled
-            type="email"
-            name="MAIL"
-            id=""
-            placeholder="EMAIL"
-            required
-          />
+          <Inputstyled type="email" name="MAIL" placeholder="EMAIL" required />
           <Inputstyled
             type="text"
             name="SUBJECT"
-            id=""
             placeholder="SUBJECT"
             required
           />

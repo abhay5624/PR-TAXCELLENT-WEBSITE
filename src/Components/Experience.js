@@ -11,7 +11,7 @@ const Experience = () => {
   return (
     <Exp>
       <div>
-        <FontAwesomeIcon icon={faTrophy} size="7x" className="icon" />
+        <FontAwesomeIcon icon={faTrophy} size="5x" className="icon" />
         <h1>
           <CountUp
             className="account-balance"
@@ -29,7 +29,7 @@ const Experience = () => {
         <h3>YEARS OF EXPERIENCE</h3>
       </div>
       <div>
-        <FontAwesomeIcon icon={faUsers} size="7x" className="icon" />
+        <FontAwesomeIcon icon={faUsers} size="5x" className="icon" />
         <h1>
           <CountUp
             className="account-balance"
@@ -47,7 +47,7 @@ const Experience = () => {
         <h3>TEAM''S</h3>
       </div>
       <div>
-        <FontAwesomeIcon icon={faLaughBeam} size="7x" className="icon" />
+        <FontAwesomeIcon icon={faLaughBeam} size="5x" className="icon" />
         <h1>
           <CountUp
             className="account-balance"

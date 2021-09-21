@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 import Logo from "../img/logo 16.09.21.jpg";
 
 import {
-  faTwitter,
-  faFacebook,
   faLinkedin,
-  faInstagram,
   faYoutubeSquare,
   faWhatsapp,
+  faTwitterSquare,
+  faFacebookSquare,
+  faInstagramSquare,
 } from "@fortawesome/free-brands-svg-icons";
 import {
   faEnvelope,
@@ -24,41 +24,94 @@ const Nav = () => {
         <Socalmedia>
           <a
             href="https://twitter.com/RTaxcellent"
-            style={{ color: "#7ab6da", borderColor: "#7ab6da" }}
+            style={{
+              color: "#7ab6da",
+              border: "none",
+              backgroundColor: "white",
+            }}
           >
-            <FontAwesomeIcon icon={faTwitter} />
+            <FontAwesomeIcon
+              icon={faTwitterSquare}
+              size="2x"
+              style={{ marginTop: "-2px" }}
+            />
           </a>
-          <a href="#" style={{ color: "#2789c5", borderColor: "#2789c5" }}>
-            <FontAwesomeIcon icon={faFacebook} />{" "}
+          <a
+            href="#"
+            style={{
+              color: "#2789c5",
+              border: "none",
+              backgroundColor: "white",
+            }}
+          >
+            <FontAwesomeIcon
+              icon={faFacebookSquare}
+              size="2x"
+              style={{ marginTop: "-2px" }}
+            />{" "}
           </a>
-          <a href="#" style={{ color: "#0A66C2", borderColor: "#0A66C2" }}>
+          <a
+            href="#"
+            style={{
+              color: "#0A66C2",
+              border: "none",
+              backgroundColor: "white",
+            }}
+          >
             {" "}
-            <FontAwesomeIcon icon={faLinkedin} />
+            <FontAwesomeIcon
+              icon={faLinkedin}
+              size="2x"
+              style={{ marginTop: "-2px" }}
+            />
           </a>
           <a
             href="https://www.instagram.com/prtaxcellent"
-            style={{ color: "#E37472", borderColor: "#E37472" }}
+            style={{
+              color: "#E37472",
+              border: "none",
+              backgroundColor: "white",
+            }}
           >
-            <FontAwesomeIcon icon={faInstagram} />
+            <FontAwesomeIcon
+              icon={faInstagramSquare}
+              size="2x"
+              style={{ marginTop: "-2px" }}
+            />
           </a>
-          <a href="#" style={{ color: "#f3423f", borderColor: "#f3423f" }}>
-            <FontAwesomeIcon icon={faYoutubeSquare} />
+          <a
+            href="#"
+            style={{
+              color: "white",
+              backgroundColor: "#f3423f",
+              border: "none",
+            }}
+          >
+            <FontAwesomeIcon
+              icon={faYoutubeSquare}
+              size="2x"
+              style={{ marginTop: "-2px" }}
+            />
           </a>
         </Socalmedia>
         <Socialdetail>
           <h1>
             <FontAwesomeIcon icon={faEnvelope} />
-            &nbsp; prtaxcellent@outlook.com
+            &nbsp; info@prtaxcellent.com
+          </h1>
+          <h1>
+            <FontAwesomeIcon icon={faPhoneAlt} /> &nbsp;+91-9650770154
           </h1>
           <h1>
             <FontAwesomeIcon
               icon={faWhatsapp}
-              style={{ paddingRight: "3px", fontSize: "21px" }}
+              style={{
+                paddingRight: "7px",
+                fontSize: "21px",
+                paddingTop: "3px",
+              }}
             />
             <FontAwesomeIcon icon={faPhoneAlt} /> &nbsp;+91-9310070808
-          </h1>
-          <h1>
-            <FontAwesomeIcon icon={faPhoneAlt} /> &nbsp;+91-9650770154
           </h1>
         </Socialdetail>
       </Navstyle>
@@ -152,9 +205,12 @@ const Navstyle = styled.nav`
 `;
 const Socalmedia = styled.div`
   padding: 10px;
+  display: flex;
   a {
-    border: 2px white solid;
-    padding: 3px;
+    display: block;
+    width: fit-content;
+    height: 27px;
+    border-radius: 3px;
     margin: 3px;
     color: white;
     text-decoration: none;

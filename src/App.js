@@ -34,8 +34,17 @@ function App() {
         <Footer />
       </Router>
       <Whatsapp>
-        <a href="https://wa.me/9310070808">
-          <FontAwesomeIcon icon={faWhatsapp} size="3x" />
+        <a href="https://wa.me/919310070808">
+          <FontAwesomeIcon
+            icon={faWhatsapp}
+            size="3x"
+            style={{
+              backgroundColor: "#6de059",
+              width: "1.2em",
+              height: "1.2em",
+              borderRadius: "50%",
+            }}
+          />
         </a>
       </Whatsapp>
     </AppStyled>
@@ -48,7 +57,7 @@ const Whatsapp = styled.div`
   position: fixed;
   right: 0%;
   bottom: 0%;
-  background-color: #6de059;
+
   color: white;
   border-radius: 50%;
   a {

@@ -113,7 +113,7 @@ const Slidestyle = styled.div`
     background-color: #00000088;
     color: white;
     margin: 5%;
-    padding: 3%;
+    padding: 1%;
   }
   a {
     color: white;

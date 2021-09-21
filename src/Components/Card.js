@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-const Card = ({ fname, lname, profile, post, description, width }) => {
+const Card = ({ fname, lname, profile }) => {
   return (
-    <Cardstyle style={{ width: `${width}` }}>
+    <Cardstyle style={{ width: `50%` }}>
       <div
         className="profilepic"
         style={{ backgroundImage: `url(${profile})`, backgroundSize: "cover" }}
@@ -15,9 +15,6 @@ const Card = ({ fname, lname, profile, post, description, width }) => {
 };
 const Cardstyle = styled.div`
   margin: auto;
-
-  padding: 25px;
-  margin: 3px;
   .name {
     width: 200px;
     font-size: 20px;
@@ -33,7 +30,6 @@ const Cardstyle = styled.div`
     width: 200px;
     height: 200px;
     object-fit: cover;
-
     margin: auto;
   }
   h3 {
