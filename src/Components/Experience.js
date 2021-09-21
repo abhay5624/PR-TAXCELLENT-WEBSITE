@@ -78,5 +78,8 @@ const Exp = styled.div`
   .icon {
     color: #0076f4;
   }
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 export default Experience;

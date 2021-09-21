@@ -7,7 +7,6 @@ const Card = ({ fname, lname, profile }) => {
         className="profilepic"
         style={{ backgroundImage: `url(${profile})`, backgroundSize: "cover" }}
       ></div>
-
     </Cardstyle>
   );
 };
@@ -33,6 +32,9 @@ const Cardstyle = styled.div`
   h3 {
     text-align: center;
     text-transform: capitalize;
+  }
+  @media (max-width: 768px) {
+    margin-bottom: 16px;
   }
 `;
 

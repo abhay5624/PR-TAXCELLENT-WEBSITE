@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <div>
       <Slidesbar />
-  
+
       <Extra>
         <h1>
           We are present in 80+ cities within india via our alliance and
@@ -40,5 +40,8 @@ const Extra = styled.div`
   font-family: "Josefin Sans", sans-serif;
   font-size: 11px;
   text-align: center;
+  h1 {
+    font-size: 20px;
+  }
 `;
 export default Home;

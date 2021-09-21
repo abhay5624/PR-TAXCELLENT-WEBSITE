@@ -46,7 +46,9 @@ const Social_media = () => {
           >
             <FontAwesomeIcon icon={faInstagram} size="6x" />
           </a>
-          <FontAwesomeIcon icon={faYoutubeSquare} size="6x" />
+          <a href="#" style={{ textDecoration: "none", color: "inherit" }}>
+            <FontAwesomeIcon icon={faYoutubeSquare} size="6x" />
+          </a>
         </div>
       </div>
     </Social>
@@ -69,6 +71,13 @@ const Social = styled.div`
       display: flex;
       justify-content: space-evenly;
       margin: auto;
+      @media (max-width: 768px) {
+        width: 100%;
+        a {
+          font-size: 10px;
+          margin: 3%;
+        }
+      }
     }
   }
 `;

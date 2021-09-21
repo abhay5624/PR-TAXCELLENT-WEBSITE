@@ -116,7 +116,7 @@ const Slidestyle = styled.div`
   justify-content: flex-start;
   align-items: center;
   @media (max-width: 768px) {
-    height: 40vh;
+    height: 50vh;
     overflow: hidden;
   }
   div {
@@ -128,6 +128,12 @@ const Slidestyle = styled.div`
     @media (max-width: 768px) {
       width: 80vw;
       margin: 1%;
+      h1 {
+        font-size: 20px;
+      }
+      p {
+        text-align: justify;
+      }
     }
   }
   a {

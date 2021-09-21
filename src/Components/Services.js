@@ -203,6 +203,18 @@ const Serviceheading = styled.div`
   h2 {
     text-align: left;
   }
+  @media (max-width: 768px) {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    h2 {
+      padding-right: 0%;
+      text-align: center;
+    }
+    p {
+      display: none;
+    }
+  }
 `;
 const Servicesection = styled.div`
   height: min-content;
@@ -215,6 +227,10 @@ const Servicesection = styled.div`
     color: white;
     font-family: "Josefin Sans", sans-serif;
     font-size: 30px;
+    @media (max-width: 768px) {
+      padding-right: 2%;
+      padding-left: 2%;
+    }
   }
 `;
 const Sersections = styled.div`
@@ -260,6 +276,11 @@ const Sersections = styled.div`
       padding-left: 10px;
       padding-right: 10px;
     }
+  }
+  @media (max-width: 768px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 `;
 export default Services;

@@ -39,5 +39,10 @@ const Cards = styled.div`
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 10px;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+  }
 `;
 export default Team;

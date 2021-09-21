@@ -208,8 +208,12 @@ const Wwrstyle = styled.div`
   width: 80%;
   margin: auto;
   font-family: "Josefin Sans", sans-serif;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
   .who {
     width: 65%;
+
     h1 {
       font-size: 23px;
       color: #252323;
@@ -227,6 +231,15 @@ const Wwrstyle = styled.div`
       font-size: 13px;
       li {
         margin: 4px;
+      }
+    }
+    @media (max-width: 768px) {
+      width: 100%;
+      h1 {
+        font-size: 19px;
+      }
+      p {
+        font-size: 17px;
       }
     }
   }
@@ -270,6 +283,13 @@ const Wwrstyle = styled.div`
       text-align: center;
       h2 {
         padding: 4px;
+      }
+    }
+    @media (max-width: 768px) {
+      width: 100%;
+      margin-bottom: 15px;
+      ul {
+        padding-left: 0%;
       }
     }
   }

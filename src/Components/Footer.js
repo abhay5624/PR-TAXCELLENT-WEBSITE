@@ -40,7 +40,7 @@ const Footer = () => {
               <Link to="/aboutus">Business partners</Link>
             </li>
 
-            <li>prtaxcellent@outlook.com</li>
+            <li>info.prtaxcellent.com</li>
 
             <li>
               <Link to="/contact">Advertise with us</Link>
@@ -176,6 +176,9 @@ const Location = styled.div`
   align-items: center;
   padding: 40px;
   border-bottom: 1px solid white;
+  @media (max-width: 768px) {
+    text-align: center;
+  }
 `;
 const Footerstyle = styled.footer`
   background-color: #000000;
@@ -201,6 +204,9 @@ const Footerstyle = styled.footer`
 const Linksul = styled.div`
   display: flex;
   border-bottom: 1px solid white;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
   .icons {
     display: flex;
     align-items: center;
@@ -212,6 +218,13 @@ const Linksul = styled.div`
       &:hover {
         color: white;
       }
+      @media (max-width: 768px) {
+        font-size: 50px;
+      }
+    }
+    @media (max-width: 768px) {
+      width: 100%;
+      margin: 7px;
     }
   }
 `;
@@ -248,6 +261,23 @@ const Linkslist = styled.div`
         padding: 25px;
         color: #ffa800;
         display: none;
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    border: none;
+    margin: 0%;
+    padding: 0%;
+    ul {
+      h3 {
+        font-size: 16px;
+      }
+      padding: 3px;
+      list-style: none;
+      padding: 0%;
+      font-size: 13px;
+      li {
+        margin-left: 4px;
       }
     }
   }
