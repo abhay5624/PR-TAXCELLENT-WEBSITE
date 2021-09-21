@@ -189,6 +189,16 @@ const Footerstyle = styled.footer`
   padding-right: 10%;
   h4 {
     color: #ffa800;
+    @media (max-width: 768px) {
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+  }
+  p {
+    @media (max-width: 768px) {
+      padding-left: 10%;
+      padding-right: 10%;
+    }
   }
   a {
     margin: auto;
@@ -200,12 +210,18 @@ const Footerstyle = styled.footer`
       color: white;
     }
   }
+  @media (max-width: 768px) {
+    padding-left: 0%;
+    padding-right: 0%;
+    margin: auto;
+  }
 `;
 const Linksul = styled.div`
   display: flex;
   border-bottom: 1px solid white;
   @media (max-width: 768px) {
     flex-direction: column;
+    width: 100%;
   }
   .icons {
     display: flex;
@@ -268,7 +284,9 @@ const Linkslist = styled.div`
     border: none;
     margin: 0%;
     padding: 0%;
+
     ul {
+      width: 100%;
       h3 {
         font-size: 16px;
       }
