@@ -197,11 +197,14 @@ const Positionfixednav = styled.div`
 `;
 const Navstyle = styled.nav`
   background-color: #48484c;
-
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 `;
 const Socalmedia = styled.div`
   padding: 10px;
@@ -229,6 +232,9 @@ const Socialdetail = styled.div`
   h1 {
     font-size: 16px;
   }
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 const Navstyletwo = styled.div`
   background-color: white;
@@ -248,13 +254,23 @@ const Navstyletwo = styled.div`
       font-family: "Cinzel", serif;
       margin-bottom: 0%;
       padding-bottom: 0%;
+      @media (max-width: 768px) {
+        font-size: 15px;
+      }
     }
     h2 {
       font-size: 14px;
       font-family: "Cinzel", serif;
+      @media (max-width: 768px) {
+        font-size: 11px;
+        margin-top: 0%;
+      }
     }
     img {
       width: 170px;
+      @media (max-width: 768px) {
+        width: 100px;
+      }
     }
   }
   .Links {
@@ -265,6 +281,9 @@ const Navstyletwo = styled.div`
     font-weight: 400;
     font-size: 13px;
     color: #272626;
+    @media (max-width: 768px) {
+      display: none;
+    }
     .dropdown {
       text-align: center;
       position: relative;
@@ -299,6 +318,10 @@ const Navstyletwo = styled.div`
   img {
     width: 400px;
     height: 122px;
+    @media (max-width: 768px) {
+      width: 100px;
+      height: 62px;
+    }
   }
   a {
     margin: 5px;

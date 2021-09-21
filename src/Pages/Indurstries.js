@@ -146,6 +146,12 @@ const Flexbox = styled.div`
         align-items: center;
         padding: 5px;
         width: 20%;
+        &:hover {
+          .icon {
+            color: white;
+            border: 2px solid white;
+          }
+        }
       }
     }
   }
@@ -160,6 +166,10 @@ const Induspage = styled.div`
     border: 4px solid black;
     margin: 10px;
     color: black;
+    &:hover {
+      color: white;
+      border: 2px solid white;
+    }
   }
 `;
 const IndusContent = styled.div`

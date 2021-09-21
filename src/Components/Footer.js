@@ -151,9 +151,9 @@ const Footer = () => {
       <Copyright>
         2021 &copy; P R TAXCELLENT & ASSOCIATES All right reserve.
         <br />
-        Created by -{" "}
+        Created by -
         <a
-          href="https://wa.me/7827808430"
+          href="https://wa.me/917827808430"
           style={{ color: "#FFA800", textDecoration: "none" }}
         >
           Abhay Kumar Sharma
