@@ -56,7 +56,10 @@ const Footer = () => {
           </ul>
         </Linkslist>
         <div className="icons">
-          <a href="#" style={{ color: "inherit", textDecoration: "none" }}>
+          <a
+            href="https://www.facebook.com/prtaxcellent-107241941709951"
+            style={{ color: "inherit", textDecoration: "none" }}
+          >
             <FontAwesomeIcon
               icon={faFacebookSquare}
               size="5x"
@@ -73,7 +76,10 @@ const Footer = () => {
               className="icon"
             />
           </a>
-          <a href="#" style={{ color: "inherit", textDecoration: "none" }}>
+          <a
+            href="https://www.linkedin.com/search/results/all/?keywords=p%20r%20taxcellent%20and%20associates&origin=RICH_QUERY_SUGGESTION&position=0&searchId=1558688e-ee6c-4f4c-8d0e-2b86ca5511b1&sid=M18"
+            style={{ color: "inherit", textDecoration: "none" }}
+          >
             <FontAwesomeIcon icon={faLinkedin} size="5x" className="icon" />
           </a>
           <a

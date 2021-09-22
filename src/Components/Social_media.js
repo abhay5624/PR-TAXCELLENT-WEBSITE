@@ -23,7 +23,7 @@ const Social_media = () => {
         <h3>Just follow our page on Twitter and other social media platform</h3>
         <div>
           <a
-            href="https://twitter.com/RTaxcellent"
+            href="https://www.facebook.com/prtaxcellent-107241941709951"
             style={{ textDecoration: "none", color: "inherit" }}
           >
             <FontAwesomeIcon icon={faFacebookSquare} size="6x" />
@@ -35,7 +35,7 @@ const Social_media = () => {
             <FontAwesomeIcon icon={faTwitterSquare} size="6x" />
           </a>
           <a
-            href="https://twitter.com/RTaxcellent"
+            href="https://www.linkedin.com/search/results/all/?keywords=p%20r%20taxcellent%20and%20associates&origin=RICH_QUERY_SUGGESTION&position=0&searchId=1558688e-ee6c-4f4c-8d0e-2b86ca5511b1&sid=M18"
             style={{ textDecoration: "none", color: "inherit" }}
           >
             <FontAwesomeIcon icon={faLinkedin} size="6x" />

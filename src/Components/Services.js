@@ -10,6 +10,7 @@ import ESIimg from "../img/srvicesimg/ESI.png";
 import GSTimg from "../img/srvicesimg/GST.jpg";
 import VATimg from "../img/srvicesimg/VAT.jpg";
 import PYimg from "../img/srvicesimg/PhysicalVerification.jpeg";
+import assimg from "../img/assist.jpg";
 const Services = ({ servImage }) => {
   return (
     <Servicesection
@@ -30,13 +31,8 @@ const Services = ({ servImage }) => {
             backgroundPosition: "90%",
           }}
         >
-          <h4> AUDIT & ASSURANCE</h4>
+          <h4>INTERNAL AUDIT </h4>
           <hr />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
-            impedit amet repudiandae, libero enim, optio aliquam corporis
-            similique itaque porro minima quo sapiente qui recusandae
-          </p>
         </div>
         <div
           style={{
@@ -46,11 +42,6 @@ const Services = ({ servImage }) => {
         >
           <h4>CAPITAL MARKET OPINION</h4>
           <hr />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
-            impedit amet repudiandae, libero enim, optio aliquam corporis
-            similique itaque porro minima quo sapiente qui recusandae
-          </p>
         </div>
         <div
           style={{
@@ -62,11 +53,6 @@ const Services = ({ servImage }) => {
         >
           <h4>INCOME TAX / TDS </h4>
           <hr />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
-            impedit amet repudiandae, libero enim, optio aliquam corporis
-            similique itaque porro minima quo sapiente qui recusandae
-          </p>
         </div>
       </Sersections>
       <Sersections>
@@ -78,11 +64,6 @@ const Services = ({ servImage }) => {
         >
           <h4>ESI / EPF</h4>
           <hr />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
-            impedit amet repudiandae, libero enim, optio aliquam corporis
-            similique itaque porro minima quo sapiente qui recusandae
-          </p>
         </div>
       </Sersections>
       <Sersections>
@@ -96,11 +77,6 @@ const Services = ({ servImage }) => {
         >
           <h4>CUSTOM/EXCISE</h4>
           <hr />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
-            impedit amet repudiandae, libero enim, optio aliquam corporis
-            similique itaque porro minima quo sapiente qui recusandae
-          </p>
         </div>
 
         <div
@@ -109,13 +85,8 @@ const Services = ({ servImage }) => {
             backgroundSize: "100%",
           }}
         >
-          <h4>G.S.T</h4>
+          <h4>GST</h4>
           <hr />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
-            impedit amet repudiandae, libero enim, optio aliquam corporis
-            similique itaque porro minima quo sapiente qui recusandae
-          </p>
         </div>
         <div
           style={{
@@ -124,11 +95,6 @@ const Services = ({ servImage }) => {
           }}
         >
           <h4>PAYROLL</h4> <hr />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
-            impedit amet repudiandae, libero enim, optio aliquam corporis
-            similique itaque porro minima quo sapiente qui recusandae
-          </p>
         </div>
       </Sersections>
 
@@ -144,11 +110,6 @@ const Services = ({ servImage }) => {
         >
           <h4>PHYSICAL VERIFICATION</h4>
           <hr />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
-            impedit amet repudiandae, libero enim, optio aliquam corporis
-            similique itaque porro minima quo sapiente qui recusandae
-          </p>
         </div>
       </Sersections>
       <Sersections>
@@ -162,11 +123,6 @@ const Services = ({ servImage }) => {
         >
           <h4>VALUATION</h4>
           <hr />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
-            impedit amet repudiandae, libero enim, optio aliquam corporis
-            similique itaque porro minima quo sapiente qui recusandae
-          </p>
         </div>
         <div
           style={{
@@ -178,11 +134,18 @@ const Services = ({ servImage }) => {
         >
           <h4>VAT</h4>
           <hr />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
-            impedit amet repudiandae, libero enim, optio aliquam corporis
-            similique itaque porro minima quo sapiente qui recusandae
-          </p>
+        </div>
+        <div
+          style={{
+            backgroundImage: `url(${assimg})`,
+            backgroundSize: "cover",
+            backgroundColor: " rgb(0 0 0 / 60%)",
+            backgroundBlendMode: "multiply",
+            backgroundPositionX: "50%",
+          }}
+        >
+          <h4>ASSETS MANAGEMENT</h4>
+          <hr />
         </div>
       </Sersections>
     </Servicesection>

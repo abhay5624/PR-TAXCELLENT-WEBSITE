@@ -37,7 +37,7 @@ const Nav = () => {
             />
           </a>
           <a
-            href="#"
+            href="https://www.facebook.com/prtaxcellent-107241941709951"
             style={{
               color: "#2789c5",
               border: "none",
@@ -51,14 +51,13 @@ const Nav = () => {
             />{" "}
           </a>
           <a
-            href="#"
+            href="https://www.linkedin.com/search/results/all/?keywords=p%20r%20taxcellent%20and%20associates&origin=RICH_QUERY_SUGGESTION&position=0&searchId=1558688e-ee6c-4f4c-8d0e-2b86ca5511b1&sid=M18"
             style={{
               color: "#0A66C2",
               border: "none",
               backgroundColor: "white",
             }}
           >
-            {" "}
             <FontAwesomeIcon
               icon={faLinkedin}
               size="2x"
