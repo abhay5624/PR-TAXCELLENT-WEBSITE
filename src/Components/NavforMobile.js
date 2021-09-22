@@ -141,6 +141,7 @@ const NavforMobile = () => {
 };
 const Navbar = styled.div`
   display: none;
+
   @media (max-width: 768px) {
     display: block;
   }
@@ -158,6 +159,7 @@ const Navlist = styled.div`
   position: fixed;
   width: 100vw;
   height: 100vh;
+  overflow: scroll;
   background-color: white;
   display: flex;
   flex-direction: column;

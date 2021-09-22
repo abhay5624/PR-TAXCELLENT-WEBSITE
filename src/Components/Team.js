@@ -2,6 +2,7 @@ import React from "react";
 import Card from "./Card";
 import image1 from "../img/RAVI.jpg";
 import image2 from "../img/Prashant.jpg";
+import image3 from "../img/partner3.jpg";
 import styled from "styled-components";
 const Team = ({ description, width }) => {
   return (
@@ -30,7 +31,6 @@ const Cards = styled.div`
   width: 100%;
   margin: auto;
   display: flex;
-  flex-wrap: wrap;
   margin-bottom: 10px;
   @media (max-width: 768px) {
     flex-direction: column;

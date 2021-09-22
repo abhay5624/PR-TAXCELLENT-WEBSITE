@@ -67,7 +67,10 @@ const Nav = () => {
           <a
             href="https://www.instagram.com/prtaxcellent"
             style={{
-              color: "#E37472",
+              background: "#d6249f",
+              background:
+                "radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%)",
+
               border: "none",
               backgroundColor: "white",
             }}
@@ -156,10 +159,10 @@ const Nav = () => {
             <div className="dropdowncontent">
               <ul>
                 <li>
-                  <Link to="services">DIRECT TAX</Link>
+                  <Link to="services">INCOME TAX</Link>
                 </li>
                 <li>
-                  <Link to="services">INDIRECT TAX</Link>
+                  <Link to="services">PAYROLL</Link>
                 </li>
                 <li>
                   <Link to="services">ESI / EPF</Link>
@@ -168,13 +171,19 @@ const Nav = () => {
                   <Link to="services">CUSTOM / EXCISE</Link>
                 </li>
                 <li>
-                  <Link to="services">AUDIT & ASSURANCE</Link>
+                  <Link to="services">INTERNAL AUDIT</Link>
                 </li>
                 <li>
                   <Link to="services">CAPITAL MARKET OPINION</Link>
                 </li>
                 <li>
                   <Link to="services">VALUATION</Link>
+                </li>
+                <li>
+                  <Link to="services">GST</Link>
+                </li>
+                <li>
+                  <Link to="services">PHYSICAL VERIFICATION</Link>
                 </li>
               </ul>
             </div>

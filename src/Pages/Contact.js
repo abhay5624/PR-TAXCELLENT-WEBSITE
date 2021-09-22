@@ -117,13 +117,13 @@ const Contact = () => {
             <div className="addressinword">
               <FontAwesomeIcon icon={faMapMarkerAlt} size="2x" />
               <h4>
-                A-264, Ground Floor, Indrapuri, Loni, Ghaziabad (U.P) - 201102
+                A-264, Ground Floor, Indrapuri, Loni,Opp. Shaheed Bhagat Singh park, Ghaziabad (U.P) - 201102
               </h4>
             </div>
             <div className="mapImage">
               <img src={Mapimg} alt="" />
               <div>
-                <a href="https://www.google.com/maps/place/M+Block,+Block-M+Connaught+Place,+Connaught+Cir,+Block+M,+Connaught+Place,+New+Delhi,+Delhi+110001/@28.6332818,77.2200493,17z/data=!3m1!4b1!4m5!3m4!1s0x390cfd3726d5a1f7:0x27f0747e8ad0f794!8m2!3d28.6332818!4d77.222238">
+                <a href="https://www.google.com/maps/search/A-264,+Ground+Floor,+Indrapuri,+Loni,+Ghaziabad+-+201102/@28.7281829,77.2859866,17z/data=!3m1!4b1">
                   VIEW IN LARGER MAP
                 </a>
               </div>
