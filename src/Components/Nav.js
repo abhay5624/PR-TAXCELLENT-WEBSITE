@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
-import Logo from "../img/logo 16.09.21.jpg";
+import Logo from "../img/3.png";
 import {
   faLinkedin,
   faYoutubeSquare,
@@ -67,7 +67,7 @@ const Nav = () => {
           <a
             href="https://www.instagram.com/prtaxcellent"
             style={{
-              background: "#d6249f",
+              backgroundColor: "#d6249f",
               background:
                 "radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%)",
 
@@ -120,10 +120,6 @@ const Nav = () => {
       <Navstyletwo>
         <div className="logo">
           <img src={Logo} alt="" />
-          <div>
-            <h1> P R TAXCELLENT & ASSOCIATES</h1>
-            <h2>Financial | Tax | Legal | Advisor</h2>
-          </div>
         </div>
 
         <div className="Links">
@@ -201,22 +197,7 @@ const Nav = () => {
     </Positionfixednav>
   );
 };
-const Hamburger = styled.div`
-  position: fixed;
-  right: -5%;
-  top: 90px;
-  padding: 20px;
-  background-color: white;
-  border-bottom-left-radius: 110px;
-  border-top-left-radius: 110px;
-  div {
-    width: 30px;
-    height: 6px;
-    margin: 2px;
-    border-radius: 2px;
-    background-color: black;
-  }
-`;
+
 const Positionfixednav = styled.div`
   position: fixed;
   top: 0%;
@@ -298,9 +279,9 @@ const Navstyletwo = styled.div`
       }
     }
     img {
-      width: 170px;
+      width: 100%;
       @media (max-width: 768px) {
-        width: 100px;
+        width: 100%;
       }
     }
   }

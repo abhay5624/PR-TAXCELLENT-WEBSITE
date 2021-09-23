@@ -19,85 +19,137 @@ const Resource = () => {
         <h1>Acts</h1>
         <ul>
           <li>
-            <a href="https://www.incometaxindia.gov.in/pages/acts/income-tax-act.aspx">
+            <a
+              href="https://www.incometaxindia.gov.in/pages/acts/income-tax-act.aspx"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
               Income Tax Act, 1961
             </a>
           </li>
           <li>
-            <a href="https://www.cbic.gov.in/resources/htdocs-cbec/gst/cgst-act.pdf">
+            <a
+              href="https://www.cbic.gov.in/resources/htdocs-cbec/gst/cgst-act.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
               GST Act, 2017
             </a>
           </li>
           <li>
-            <a href="https://www.cbic.gov.in/htdocs-cbec/excise/cx-act/cx-act-ch2-june16#:~:text=(a)a%20duty%20of%20excise,1985%20(5%20of%201986)%3B">
+            <a
+              href="https://www.cbic.gov.in/htdocs-cbec/excise/cx-act/cx-act-ch2-june16#:~:text=(a)a%20duty%20of%20excise,1985%20(5%20of%201986)%3B"
+              target="_blank"
+              rel="noreferrer"
+            >
               {" "}
               <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
               Central Excise Act, 1944
             </a>
           </li>
           <li>
-            <a href="https://www.cbic.gov.in/htdocs-cbec/customs/cs-acts-botm">
+            <a
+              href="https://www.cbic.gov.in/htdocs-cbec/customs/cs-acts-botm"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
               Custom Act, 1962
             </a>
           </li>
           <li>
-            <a href="https://www.mca.gov.in/Ministry/pdf/CompaniesAct2013.pdf">
+            <a
+              href="https://www.mca.gov.in/Ministry/pdf/CompaniesAct2013.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >
               {" "}
               <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
               Companies Act, 2013
             </a>
           </li>
           <li>
-            <a href="https://legislative.gov.in/sites/default/files/The Limited Liability Partnership Act, 2008.pdf">
+            <a
+              href="https://legislative.gov.in/sites/default/files/The Limited Liability Partnership Act, 2008.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
               The Limited Liability Partnership Act, 2008
             </a>
           </li>
           <li>
-            <a href="https://legislative.gov.in/sites/default/files/A1999-42_0.pdf">
+            <a
+              href="https://legislative.gov.in/sites/default/files/A1999-42_0.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >
               {" "}
               <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
               Foreign Exchange Management Act, 1999
             </a>
           </li>
           <li>
-            <a href="https://www.esic.nic.in/Tender/ESIAct1948Amendedupto010610.pdf">
+            <a
+              href="https://www.esic.nic.in/Tender/ESIAct1948Amendedupto010610.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >
               {" "}
               <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
               Employees’ State Insurance Act, 1948
             </a>
           </li>
           <li>
-            <a href="https://www.epfindia.gov.in/site_docs/PDFs/Downloads_PDFs/EPFAct1952.pdf">
+            <a
+              href="https://www.epfindia.gov.in/site_docs/PDFs/Downloads_PDFs/EPFAct1952.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >
               {" "}
               <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
               Employees’ Provident Fund Act, 1952
             </a>
           </li>
           <li>
-            <a href="https://rti.gov.in/rti-act.pdf">
+            <a
+              href="https://rti.gov.in/rti-act.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
               Right to Information Act, 2005
             </a>
           </li>
           <li>
-            <a href="https://ctd.tn.gov.in/documents/10184/10928/CENTRAL+SALES+TAX+ACT%2C+1956/f6b71891-575e-4bca-a345-9779071498a5?version=1.2">
+            <a
+              href="https://ctd.tn.gov.in/documents/10184/10928/CENTRAL+SALES+TAX+ACT%2C+1956/f6b71891-575e-4bca-a345-9779071498a5?version=1.2"
+              target="_blank"
+              rel="noreferrer"
+            >
               {" "}
               <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
               Central Sales Tax Act, 1956
             </a>
           </li>
           <li>
-            <a href="https://dvat.gov.in/App_Themes/PublicNotices/DVAT_ACT_2014.pdf">
+            <a
+              href="https://dvat.gov.in/App_Themes/PublicNotices/DVAT_ACT_2014.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
               Delhi Value Added Tax, 2004
             </a>
           </li>
           <li>
-            <a href="https://www.sebi.gov.in/sebi_data/attachdocs/1456380272563.pdf">
+            <a
+              href="https://www.sebi.gov.in/sebi_data/attachdocs/1456380272563.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >
               {" "}
               <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
               The Securities and Exchange Board of India Act, 1992
@@ -107,38 +159,62 @@ const Resource = () => {
         <h1>Calculators</h1>
         <ul>
           <li>
-            <a href="https://www.incometaxindia.gov.in/Pages/tools/tds-calculator.aspx">
+            <a
+              href="https://www.incometaxindia.gov.in/Pages/tools/tds-calculator.aspx"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
               TDS Calculator
             </a>
           </li>
           <li>
-            <a href="https://www.incometaxindia.gov.in/pages/tools/advance-tax-calculator.aspx">
+            <a
+              href="https://www.incometaxindia.gov.in/pages/tools/advance-tax-calculator.aspx"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
               Tax Calculator
             </a>
           </li>
           <li>
-            <a href="https://www.incometaxindia.gov.in/Pages/tools/house-rent-allowance-calculator.aspx">
+            <a
+              href="https://www.incometaxindia.gov.in/Pages/tools/house-rent-allowance-calculator.aspx"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
               HRA Calculator
             </a>
           </li>
 
           <li>
-            <a href="https://emicalculator.net/">
+            <a
+              href="https://emicalculator.net/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
               Home Loan Calculator
             </a>
           </li>
           <li>
-            <a href="https://emicalculator.net/">
+            <a
+              href="https://emicalculator.net/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
               Auto Loan Calculator
             </a>
           </li>
           <li>
-            <a href="https://emicalculator.net/">
+            <a
+              href="https://emicalculator.net/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
               EMI Calculator
             </a>
@@ -147,52 +223,80 @@ const Resource = () => {
         <h1>Utilities</h1>
         <ul>
           <li>
-            <a href="https://www.incometaxindia.gov.in/pages/charts-and-tables.aspx">
+            <a
+              href="https://www.incometaxindia.gov.in/pages/charts-and-tables.aspx"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
               Rates of TDS
             </a>
           </li>
           <li>
-            <a href="https://www.incometaxindia.gov.in/pages/charts-and-tables.aspx">
+            <a
+              href="https://www.incometaxindia.gov.in/pages/charts-and-tables.aspx"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
               Rates of Income Tax
             </a>
           </li>
           <li>
-            <a href="https://www.mca.gov.in/content/mca/global/en/acts-rules/companies-act/companies-act-2013.html">
+            <a
+              href="https://www.mca.gov.in/content/mca/global/en/acts-rules/companies-act/companies-act-2013.html"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
               Rates of Depreciation under Companies Act
             </a>
           </li>
           <li>
-            <a href="https://www.incometaxindia.gov.in/_layouts/15/dit/mobile/viewer.aspx?path=https://www.incometaxindia.gov.in/charts%20%20tables/depreciation%20rates.htm&k=&IsDlg=0">
+            <a
+              href="https://www.incometaxindia.gov.in/_layouts/15/dit/mobile/viewer.aspx?path=https://www.incometaxindia.gov.in/charts%20%20tables/depreciation%20rates.htm&k=&IsDlg=0"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
               Rates of Depreciation under Income Tax Act
             </a>
           </li>
           <li>
-            <a href="https://www.mca.gov.in/mcafoportal/enquireFeePreLogin.do">
+            <a
+              href="https://www.mca.gov.in/mcafoportal/enquireFeePreLogin.do"
+              target="_blank"
+              rel="noreferrer"
+            >
               {" "}
               <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
               ROC filing fees
             </a>
           </li>
           <li>
-            <a href="https://www.incometaxindia.gov.in/Pages/utilities/cost-Inflation-Index.aspx">
+            <a
+              href="https://www.incometaxindia.gov.in/Pages/utilities/cost-Inflation-Index.aspx"
+              target="_blank"
+              rel="noreferrer"
+            >
               {" "}
               <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
               Cost Inflation Index
             </a>
           </li>
           <li>
-            <a href="">
+            <a target="_blank" rel="noreferrer">
               {" "}
               <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
               Gold and Silver Rates
             </a>
           </li>
           <li>
-            <a href="https://www.rbi.org.in/Scripts/IFSCMICRDetails.aspx">
+            <a
+              href="https://www.rbi.org.in/Scripts/IFSCMICRDetails.aspx"
+              target="_blank"
+              rel="noreferrer"
+            >
               {" "}
               <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
               IFSC Codes

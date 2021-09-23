@@ -144,7 +144,7 @@ const Flexbox = styled.div`
         display: flex;
         align-items: center;
         padding: 5px;
-        width: 20%;
+        width: 30%;
         &:hover {
           .icon {
             color: white;

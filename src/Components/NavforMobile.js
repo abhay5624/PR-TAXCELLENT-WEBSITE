@@ -11,8 +11,6 @@ import { Link } from "react-router-dom";
 const NavforMobile = () => {
   const [navbarvisibal, setnavbarvisibal] = useState(false);
   const navbarRef = useRef();
-  const [firstul, setfirstul] = useState(false);
-  const [Secondul, setSecondul] = useState(false);
   const Navbartoggle = () => {
     if (navbarvisibal) {
       navbarRef.current.style.transform = "translateX(100%)";
@@ -84,12 +82,12 @@ const NavforMobile = () => {
             <ul>
               <li>
                 <Link to="services" onClick={Navbartoggle}>
-                  Direct Tax
+                  Income Tax
                 </Link>
               </li>
               <li>
                 <Link to="services" onClick={Navbartoggle}>
-                  Indirect Tax
+                  Payroll
                 </Link>
               </li>
               <li>
@@ -104,7 +102,12 @@ const NavforMobile = () => {
               </li>
               <li>
                 <Link to="services" onClick={Navbartoggle}>
-                  Audit & Assurance
+                  Internal Audit
+                </Link>
+              </li>
+              <li>
+                <Link to="services" onClick={Navbartoggle}>
+                  GST
                 </Link>
               </li>
               <li>
@@ -115,6 +118,21 @@ const NavforMobile = () => {
               <li>
                 <Link to="services" onClick={Navbartoggle}>
                   Valuation
+                </Link>
+              </li>
+              <li>
+                <Link to="services" onClick={Navbartoggle}>
+                  Physical Verification
+                </Link>
+              </li>
+              <li>
+                <Link to="services" onClick={Navbartoggle}>
+                  VAT
+                </Link>
+              </li>
+              <li>
+                <Link to="services" onClick={Navbartoggle}>
+                  Assets Management
                 </Link>
               </li>
             </ul>
@@ -172,11 +190,11 @@ const Navlist = styled.div`
     flex-direction: column;
     justify-content: space-evenly;
     height: 60vh;
-    margin-top: 60px;
+    margin-top: 40vh;
     list-style: none;
 
     width: 100%;
-    padding: 10%;
+    padding: 5%;
     li {
       font-size: 20px;
 
@@ -188,10 +206,11 @@ const Navlist = styled.div`
         text-decoration: none;
       }
       ul {
-        margin-top: 5%;
+        margin-top: 2%;
         padding-left: 20%;
         display: none;
         height: fit-content;
+        height: max-content;
         li {
           padding: 3px;
           border-bottom: 2px solid #4b4b4b;

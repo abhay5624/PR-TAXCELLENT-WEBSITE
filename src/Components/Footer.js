@@ -104,7 +104,6 @@ const Footer = () => {
           </a>
 
           <h3>
-            {" "}
             A-264, Ground Floor,Opp. Shaheed Bhagat Singh park, Indrapuri, Loni,
             Ghaziabad (U.P) - 201102
           </h3>
