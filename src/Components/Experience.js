@@ -44,7 +44,7 @@ const Experience = () => {
           />
           +
         </h1>
-        <h3>TEAM''S</h3>
+        <h3>TEAM'S</h3>
       </div>
       <div>
         <FontAwesomeIcon icon={faLaughBeam} size="5x" className="icon" />

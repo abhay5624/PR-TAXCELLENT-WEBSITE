@@ -117,7 +117,8 @@ const Contact = () => {
             <div className="addressinword">
               <FontAwesomeIcon icon={faMapMarkerAlt} size="2x" />
               <h4>
-                A-264, Ground Floor, Indrapuri, Loni,Opp. Shaheed Bhagat Singh park, Ghaziabad (U.P) - 201102
+                A-264, Ground Floor,Opp. Shaheed Bhagat Singh park, Indrapuri,
+                Loni, Ghaziabad (U.P) - 201102
               </h4>
             </div>
             <div className="mapImage">

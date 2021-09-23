@@ -185,6 +185,9 @@ const Nav = () => {
                 <li>
                   <Link to="services">PHYSICAL VERIFICATION</Link>
                 </li>
+                <li>
+                  <Link to="services">ASSETS MANAGEMENT</Link>
+                </li>
               </ul>
             </div>
           </div>
