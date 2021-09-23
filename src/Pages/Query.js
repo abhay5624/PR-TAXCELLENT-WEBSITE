@@ -2,9 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import backimage from "../img/LIGHT.jpeg";
-import { useHistory } from "react-router";
 const Query = () => {
-  const history = useHistory();
   return (
     <Querypage>
       <Gapspace></Gapspace>
@@ -21,14 +19,7 @@ const Query = () => {
       </Queryheading>
       <QueryContent>
         <h1>:: QUERY SHEET ::</h1>
-        <form
-          name="query"
-          method="post"
-          data-netlify="true"
-          onSubmit={() => {
-            history.replace("/");
-          }}
-        >
+        <form name="query" method="post" data-netlify="true" onSubmit="submit">
           <input type="hidden" name="form-name" value="query" />
           <Inputstyled
             type="text"
