@@ -17,6 +17,7 @@ const Team = ({ description, width }) => {
         />
 
         <Card fname="RAVI " lname="MALIK" profile={image1} post="Partner" />
+        <Card fname="RAVI " lname="MALIK" profile={image3} post="Partner" />
       </Cards>
     </Teammember>
   );
