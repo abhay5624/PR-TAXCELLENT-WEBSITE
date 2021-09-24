@@ -246,12 +246,13 @@ const Socialdetail = styled.div`
   }
 `;
 const Navstyletwo = styled.div`
-  background-color: white;
+  background-color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
   @media (max-width: 768px) {
     flex-direction: column;
+    background-color: white;
   }
   .logo {
     display: flex;
@@ -292,7 +293,7 @@ const Navstyletwo = styled.div`
     font-family: "Josefin Sans", sans-serif;
     font-weight: 400;
     font-size: 13px;
-    color: #272626;
+    color: white;
 
     .dropdown {
       text-align: center;
@@ -306,7 +307,7 @@ const Navstyletwo = styled.div`
         display: none;
         position: absolute;
         z-index: 2;
-        background-color: white;
+        background-color: black;
         ul {
           padding-left: 0;
           list-style: none;
@@ -360,7 +361,7 @@ const Navstyletwo = styled.div`
   a {
     margin: 5px;
     text-decoration: none;
-    color: #3d3d3d;
+    color: white;
     &:hover {
       color: #060057;
     }

@@ -17,7 +17,7 @@ const Home = () => {
 
       <Extra>
         <h1>
-          We are present in 80+ cities within india via our alliance and
+          We are present in 20+ cities within india via our alliance and
           network.
         </h1>
       </Extra>

@@ -7,48 +7,63 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Indurstries from "./Pages/Indurstries";
 import Contact from "./Pages/Contact";
 import Resource from "./Pages/Resource";
+import { useState, useEffect } from "react";
 import Servicespage from "./Pages/Servicespage";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import Termscondition from "./Pages/Termscondition";
 import Query from "./Pages/Query";
 import NavforMobile from "./Components/NavforMobile";
+import Video from "./Video";
 function App() {
+  const [isscroll, setisscroll] = useState(false);
+  useEffect(() => {
+    if (window.screen.width <= 1000) {
+      console.log("hoo");
+    }
+  }, []);
+
   return (
     <AppStyled>
-      <Router>
-        <Nav />
-        <NavforMobile />
-        <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/aboutus" exact component={Aboutus} />
-          <Route path="/industries" exact component={Indurstries} />
-          <Route path="/contact" exact component={Contact} />
-          <Route path="/resources" exact component={Resource} />
-          <Route path="/services" exact component={Servicespage} />
-          <Route
-            path="/Terms-and-conditions"
-            exact
-            component={Termscondition}
-          />
-          <Route path="/query" exact component={Query} />
-        </Switch>
-        <Footer />
-      </Router>
-      <Whatsapp>
-        <a href="https://wa.me/919310070808">
-          <FontAwesomeIcon
-            icon={faWhatsapp}
-            size="3x"
-            style={{
-              backgroundColor: "#6de059",
-              width: "1.2em",
-              height: "1.2em",
-              borderRadius: "50%",
-            }}
-          />
-        </a>
-      </Whatsapp>
+      {!isscroll ? (
+        <Video setscroll={setisscroll} />
+      ) : (
+        <>
+          <Router>
+            <Nav />
+            <NavforMobile />
+            <Switch>
+              <Route path="/" exact component={Home} />
+              <Route path="/aboutus" exact component={Aboutus} />
+              <Route path="/industries" exact component={Indurstries} />
+              <Route path="/contact" exact component={Contact} />
+              <Route path="/resources" exact component={Resource} />
+              <Route path="/services" exact component={Servicespage} />
+              <Route
+                path="/Terms-and-conditions"
+                exact
+                component={Termscondition}
+              />
+              <Route path="/query" exact component={Query} />
+            </Switch>
+            <Footer />
+          </Router>
+          <Whatsapp>
+            <a href="https://wa.me/919310070808">
+              <FontAwesomeIcon
+                icon={faWhatsapp}
+                size="3x"
+                style={{
+                  backgroundColor: "#6de059",
+                  width: "1.2em",
+                  height: "1.2em",
+                  borderRadius: "50%",
+                }}
+              />
+            </a>
+          </Whatsapp>
+        </>
+      )}
     </AppStyled>
   );
 }

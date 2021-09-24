@@ -46,20 +46,6 @@ const Contact = () => {
                 <FontAwesomeIcon icon={faWhatsapp} /> +91-9310070808
               </a>
             </p>
-            <p>
-              <a href="https://twitter.com/RTaxcellent">
-                <FontAwesomeIcon icon={faTwitter} /> @prtaxcellent
-              </a>
-            </p>
-            <p>
-              <a href="https://www.instagram.com/prtaxcellent/">
-                <FontAwesomeIcon
-                  icon={faInstagram}
-                  style={{ marginRight: "7px" }}
-                />
-                P R Taxcellent & Associates
-              </a>
-            </p>
           </div>
           <div id="Second">
             <h1>CONTACT US</h1>
