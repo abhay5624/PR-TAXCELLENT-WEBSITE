@@ -35,7 +35,7 @@ const Resource = () => {
               rel="noreferrer"
             >
               <FontAwesomeIcon icon={faArrowAltCircleRight} className="icon" />
-              GST Act, 2017
+              CGST Act, 2017
             </a>
           </li>
           <li>
